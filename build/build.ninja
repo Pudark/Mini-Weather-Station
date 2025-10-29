@@ -57,8 +57,6 @@ build CMakeFiles/Project-core.elf.dir/core/src/main.c.obj: C_COMPILER__Project-c
   INCLUDES = -ID:/Data/Design/Project-core/core/inc -ID:/Data/Design/Project-core/drivers/STM32F10x_FWLib/inc -ID:/Data/Design/Project-core/drivers/system/delay -ID:/Data/Design/Project-core/drivers/system/sys -ID:/Data/Design/Project-core/drivers/system/usart -ID:/Data/Design/Project-core/core/startup -ID:/Data/Design/Project-core/drivers/hardware
   OBJECT_DIR = CMakeFiles\Project-core.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\Project-core.elf.dir\core\src
-  TARGET_COMPILE_PDB = CMakeFiles\Project-core.elf.dir\
-  TARGET_PDB = Project-core.elf.pdb
 
 build CMakeFiles/Project-core.elf.dir/core/src/system_stm32f10x.c.obj: C_COMPILER__Project-core.2eelf_unscanned_Debug D$:/Data/Design/Project-core/core/src/system_stm32f10x.c || cmake_object_order_depends_target_Project-core.elf
   CONFIG = Debug
@@ -68,8 +66,6 @@ build CMakeFiles/Project-core.elf.dir/core/src/system_stm32f10x.c.obj: C_COMPILE
   INCLUDES = -ID:/Data/Design/Project-core/core/inc -ID:/Data/Design/Project-core/drivers/STM32F10x_FWLib/inc -ID:/Data/Design/Project-core/drivers/system/delay -ID:/Data/Design/Project-core/drivers/system/sys -ID:/Data/Design/Project-core/drivers/system/usart -ID:/Data/Design/Project-core/core/startup -ID:/Data/Design/Project-core/drivers/hardware
   OBJECT_DIR = CMakeFiles\Project-core.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\Project-core.elf.dir\core\src
-  TARGET_COMPILE_PDB = CMakeFiles\Project-core.elf.dir\
-  TARGET_PDB = Project-core.elf.pdb
 
 build CMakeFiles/Project-core.elf.dir/core/src/stm32f10x_it.c.obj: C_COMPILER__Project-core.2eelf_unscanned_Debug D$:/Data/Design/Project-core/core/src/stm32f10x_it.c || cmake_object_order_depends_target_Project-core.elf
   CONFIG = Debug
@@ -79,8 +75,6 @@ build CMakeFiles/Project-core.elf.dir/core/src/stm32f10x_it.c.obj: C_COMPILER__P
   INCLUDES = -ID:/Data/Design/Project-core/core/inc -ID:/Data/Design/Project-core/drivers/STM32F10x_FWLib/inc -ID:/Data/Design/Project-core/drivers/system/delay -ID:/Data/Design/Project-core/drivers/system/sys -ID:/Data/Design/Project-core/drivers/system/usart -ID:/Data/Design/Project-core/core/startup -ID:/Data/Design/Project-core/drivers/hardware
   OBJECT_DIR = CMakeFiles\Project-core.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\Project-core.elf.dir\core\src
-  TARGET_COMPILE_PDB = CMakeFiles\Project-core.elf.dir\
-  TARGET_PDB = Project-core.elf.pdb
 
 build CMakeFiles/Project-core.elf.dir/core/startup/startup_stm32f10x_md.s.obj: ASM_COMPILER__Project-core.2eelf_unscanned_Debug D$:/Data/Design/Project-core/core/startup/startup_stm32f10x_md.s || cmake_object_order_depends_target_Project-core.elf
   CONFIG = Debug
@@ -90,8 +84,6 @@ build CMakeFiles/Project-core.elf.dir/core/startup/startup_stm32f10x_md.s.obj: A
   INCLUDES = -ID:/Data/Design/Project-core/core/inc -ID:/Data/Design/Project-core/drivers/STM32F10x_FWLib/inc -ID:/Data/Design/Project-core/drivers/system/delay -ID:/Data/Design/Project-core/drivers/system/sys -ID:/Data/Design/Project-core/drivers/system/usart -ID:/Data/Design/Project-core/core/startup -ID:/Data/Design/Project-core/drivers/hardware
   OBJECT_DIR = CMakeFiles\Project-core.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\Project-core.elf.dir\core\startup
-  TARGET_COMPILE_PDB = CMakeFiles\Project-core.elf.dir\
-  TARGET_PDB = Project-core.elf.pdb
 
 build CMakeFiles/Project-core.elf.dir/drivers/system/usart/usart.c.obj: C_COMPILER__Project-core.2eelf_unscanned_Debug D$:/Data/Design/Project-core/drivers/system/usart/usart.c || cmake_object_order_depends_target_Project-core.elf
   CONFIG = Debug
@@ -101,8 +93,6 @@ build CMakeFiles/Project-core.elf.dir/drivers/system/usart/usart.c.obj: C_COMPIL
   INCLUDES = -ID:/Data/Design/Project-core/core/inc -ID:/Data/Design/Project-core/drivers/STM32F10x_FWLib/inc -ID:/Data/Design/Project-core/drivers/system/delay -ID:/Data/Design/Project-core/drivers/system/sys -ID:/Data/Design/Project-core/drivers/system/usart -ID:/Data/Design/Project-core/core/startup -ID:/Data/Design/Project-core/drivers/hardware
   OBJECT_DIR = CMakeFiles\Project-core.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\Project-core.elf.dir\drivers\system\usart
-  TARGET_COMPILE_PDB = CMakeFiles\Project-core.elf.dir\
-  TARGET_PDB = Project-core.elf.pdb
 
 build CMakeFiles/Project-core.elf.dir/drivers/system/delay/delay.c.obj: C_COMPILER__Project-core.2eelf_unscanned_Debug D$:/Data/Design/Project-core/drivers/system/delay/delay.c || cmake_object_order_depends_target_Project-core.elf
   CONFIG = Debug
@@ -112,8 +102,6 @@ build CMakeFiles/Project-core.elf.dir/drivers/system/delay/delay.c.obj: C_COMPIL
   INCLUDES = -ID:/Data/Design/Project-core/core/inc -ID:/Data/Design/Project-core/drivers/STM32F10x_FWLib/inc -ID:/Data/Design/Project-core/drivers/system/delay -ID:/Data/Design/Project-core/drivers/system/sys -ID:/Data/Design/Project-core/drivers/system/usart -ID:/Data/Design/Project-core/core/startup -ID:/Data/Design/Project-core/drivers/hardware
   OBJECT_DIR = CMakeFiles\Project-core.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\Project-core.elf.dir\drivers\system\delay
-  TARGET_COMPILE_PDB = CMakeFiles\Project-core.elf.dir\
-  TARGET_PDB = Project-core.elf.pdb
 
 build CMakeFiles/Project-core.elf.dir/drivers/system/sys/sys.c.obj: C_COMPILER__Project-core.2eelf_unscanned_Debug D$:/Data/Design/Project-core/drivers/system/sys/sys.c || cmake_object_order_depends_target_Project-core.elf
   CONFIG = Debug
@@ -123,8 +111,6 @@ build CMakeFiles/Project-core.elf.dir/drivers/system/sys/sys.c.obj: C_COMPILER__
   INCLUDES = -ID:/Data/Design/Project-core/core/inc -ID:/Data/Design/Project-core/drivers/STM32F10x_FWLib/inc -ID:/Data/Design/Project-core/drivers/system/delay -ID:/Data/Design/Project-core/drivers/system/sys -ID:/Data/Design/Project-core/drivers/system/usart -ID:/Data/Design/Project-core/core/startup -ID:/Data/Design/Project-core/drivers/hardware
   OBJECT_DIR = CMakeFiles\Project-core.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\Project-core.elf.dir\drivers\system\sys
-  TARGET_COMPILE_PDB = CMakeFiles\Project-core.elf.dir\
-  TARGET_PDB = Project-core.elf.pdb
 
 build CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/lcd.c.obj: C_COMPILER__Project-core.2eelf_unscanned_Debug D$:/Data/Design/Project-core/drivers/HARDWARE/lcd.c || cmake_object_order_depends_target_Project-core.elf
   CONFIG = Debug
@@ -134,8 +120,6 @@ build CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/lcd.c.obj: C_COMPILER__Pr
   INCLUDES = -ID:/Data/Design/Project-core/core/inc -ID:/Data/Design/Project-core/drivers/STM32F10x_FWLib/inc -ID:/Data/Design/Project-core/drivers/system/delay -ID:/Data/Design/Project-core/drivers/system/sys -ID:/Data/Design/Project-core/drivers/system/usart -ID:/Data/Design/Project-core/core/startup -ID:/Data/Design/Project-core/drivers/hardware
   OBJECT_DIR = CMakeFiles\Project-core.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\Project-core.elf.dir\drivers\HARDWARE
-  TARGET_COMPILE_PDB = CMakeFiles\Project-core.elf.dir\
-  TARGET_PDB = Project-core.elf.pdb
 
 build CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/led.c.obj: C_COMPILER__Project-core.2eelf_unscanned_Debug D$:/Data/Design/Project-core/drivers/HARDWARE/led.c || cmake_object_order_depends_target_Project-core.elf
   CONFIG = Debug
@@ -145,8 +129,6 @@ build CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/led.c.obj: C_COMPILER__Pr
   INCLUDES = -ID:/Data/Design/Project-core/core/inc -ID:/Data/Design/Project-core/drivers/STM32F10x_FWLib/inc -ID:/Data/Design/Project-core/drivers/system/delay -ID:/Data/Design/Project-core/drivers/system/sys -ID:/Data/Design/Project-core/drivers/system/usart -ID:/Data/Design/Project-core/core/startup -ID:/Data/Design/Project-core/drivers/hardware
   OBJECT_DIR = CMakeFiles\Project-core.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\Project-core.elf.dir\drivers\HARDWARE
-  TARGET_COMPILE_PDB = CMakeFiles\Project-core.elf.dir\
-  TARGET_PDB = Project-core.elf.pdb
 
 build CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/spi_hw.c.obj: C_COMPILER__Project-core.2eelf_unscanned_Debug D$:/Data/Design/Project-core/drivers/HARDWARE/spi_hw.c || cmake_object_order_depends_target_Project-core.elf
   CONFIG = Debug
@@ -156,8 +138,6 @@ build CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/spi_hw.c.obj: C_COMPILER_
   INCLUDES = -ID:/Data/Design/Project-core/core/inc -ID:/Data/Design/Project-core/drivers/STM32F10x_FWLib/inc -ID:/Data/Design/Project-core/drivers/system/delay -ID:/Data/Design/Project-core/drivers/system/sys -ID:/Data/Design/Project-core/drivers/system/usart -ID:/Data/Design/Project-core/core/startup -ID:/Data/Design/Project-core/drivers/hardware
   OBJECT_DIR = CMakeFiles\Project-core.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\Project-core.elf.dir\drivers\HARDWARE
-  TARGET_COMPILE_PDB = CMakeFiles\Project-core.elf.dir\
-  TARGET_PDB = Project-core.elf.pdb
 
 build CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/misc.c.obj: C_COMPILER__Project-core.2eelf_unscanned_Debug D$:/Data/Design/Project-core/drivers/STM32F10x_FWLib/src/misc.c || cmake_object_order_depends_target_Project-core.elf
   CONFIG = Debug
@@ -167,8 +147,6 @@ build CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/misc.c.obj: C_
   INCLUDES = -ID:/Data/Design/Project-core/core/inc -ID:/Data/Design/Project-core/drivers/STM32F10x_FWLib/inc -ID:/Data/Design/Project-core/drivers/system/delay -ID:/Data/Design/Project-core/drivers/system/sys -ID:/Data/Design/Project-core/drivers/system/usart -ID:/Data/Design/Project-core/core/startup -ID:/Data/Design/Project-core/drivers/hardware
   OBJECT_DIR = CMakeFiles\Project-core.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\Project-core.elf.dir\drivers\STM32F10x_FWLib\src
-  TARGET_COMPILE_PDB = CMakeFiles\Project-core.elf.dir\
-  TARGET_PDB = Project-core.elf.pdb
 
 build CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_adc.c.obj: C_COMPILER__Project-core.2eelf_unscanned_Debug D$:/Data/Design/Project-core/drivers/STM32F10x_FWLib/src/stm32f10x_adc.c || cmake_object_order_depends_target_Project-core.elf
   CONFIG = Debug
@@ -178,8 +156,6 @@ build CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_adc.
   INCLUDES = -ID:/Data/Design/Project-core/core/inc -ID:/Data/Design/Project-core/drivers/STM32F10x_FWLib/inc -ID:/Data/Design/Project-core/drivers/system/delay -ID:/Data/Design/Project-core/drivers/system/sys -ID:/Data/Design/Project-core/drivers/system/usart -ID:/Data/Design/Project-core/core/startup -ID:/Data/Design/Project-core/drivers/hardware
   OBJECT_DIR = CMakeFiles\Project-core.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\Project-core.elf.dir\drivers\STM32F10x_FWLib\src
-  TARGET_COMPILE_PDB = CMakeFiles\Project-core.elf.dir\
-  TARGET_PDB = Project-core.elf.pdb
 
 build CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_bkp.c.obj: C_COMPILER__Project-core.2eelf_unscanned_Debug D$:/Data/Design/Project-core/drivers/STM32F10x_FWLib/src/stm32f10x_bkp.c || cmake_object_order_depends_target_Project-core.elf
   CONFIG = Debug
@@ -189,8 +165,6 @@ build CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_bkp.
   INCLUDES = -ID:/Data/Design/Project-core/core/inc -ID:/Data/Design/Project-core/drivers/STM32F10x_FWLib/inc -ID:/Data/Design/Project-core/drivers/system/delay -ID:/Data/Design/Project-core/drivers/system/sys -ID:/Data/Design/Project-core/drivers/system/usart -ID:/Data/Design/Project-core/core/startup -ID:/Data/Design/Project-core/drivers/hardware
   OBJECT_DIR = CMakeFiles\Project-core.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\Project-core.elf.dir\drivers\STM32F10x_FWLib\src
-  TARGET_COMPILE_PDB = CMakeFiles\Project-core.elf.dir\
-  TARGET_PDB = Project-core.elf.pdb
 
 build CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_can.c.obj: C_COMPILER__Project-core.2eelf_unscanned_Debug D$:/Data/Design/Project-core/drivers/STM32F10x_FWLib/src/stm32f10x_can.c || cmake_object_order_depends_target_Project-core.elf
   CONFIG = Debug
@@ -200,8 +174,6 @@ build CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_can.
   INCLUDES = -ID:/Data/Design/Project-core/core/inc -ID:/Data/Design/Project-core/drivers/STM32F10x_FWLib/inc -ID:/Data/Design/Project-core/drivers/system/delay -ID:/Data/Design/Project-core/drivers/system/sys -ID:/Data/Design/Project-core/drivers/system/usart -ID:/Data/Design/Project-core/core/startup -ID:/Data/Design/Project-core/drivers/hardware
   OBJECT_DIR = CMakeFiles\Project-core.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\Project-core.elf.dir\drivers\STM32F10x_FWLib\src
-  TARGET_COMPILE_PDB = CMakeFiles\Project-core.elf.dir\
-  TARGET_PDB = Project-core.elf.pdb
 
 build CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_cec.c.obj: C_COMPILER__Project-core.2eelf_unscanned_Debug D$:/Data/Design/Project-core/drivers/STM32F10x_FWLib/src/stm32f10x_cec.c || cmake_object_order_depends_target_Project-core.elf
   CONFIG = Debug
@@ -211,8 +183,6 @@ build CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_cec.
   INCLUDES = -ID:/Data/Design/Project-core/core/inc -ID:/Data/Design/Project-core/drivers/STM32F10x_FWLib/inc -ID:/Data/Design/Project-core/drivers/system/delay -ID:/Data/Design/Project-core/drivers/system/sys -ID:/Data/Design/Project-core/drivers/system/usart -ID:/Data/Design/Project-core/core/startup -ID:/Data/Design/Project-core/drivers/hardware
   OBJECT_DIR = CMakeFiles\Project-core.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\Project-core.elf.dir\drivers\STM32F10x_FWLib\src
-  TARGET_COMPILE_PDB = CMakeFiles\Project-core.elf.dir\
-  TARGET_PDB = Project-core.elf.pdb
 
 build CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_crc.c.obj: C_COMPILER__Project-core.2eelf_unscanned_Debug D$:/Data/Design/Project-core/drivers/STM32F10x_FWLib/src/stm32f10x_crc.c || cmake_object_order_depends_target_Project-core.elf
   CONFIG = Debug
@@ -222,8 +192,6 @@ build CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_crc.
   INCLUDES = -ID:/Data/Design/Project-core/core/inc -ID:/Data/Design/Project-core/drivers/STM32F10x_FWLib/inc -ID:/Data/Design/Project-core/drivers/system/delay -ID:/Data/Design/Project-core/drivers/system/sys -ID:/Data/Design/Project-core/drivers/system/usart -ID:/Data/Design/Project-core/core/startup -ID:/Data/Design/Project-core/drivers/hardware
   OBJECT_DIR = CMakeFiles\Project-core.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\Project-core.elf.dir\drivers\STM32F10x_FWLib\src
-  TARGET_COMPILE_PDB = CMakeFiles\Project-core.elf.dir\
-  TARGET_PDB = Project-core.elf.pdb
 
 build CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_dac.c.obj: C_COMPILER__Project-core.2eelf_unscanned_Debug D$:/Data/Design/Project-core/drivers/STM32F10x_FWLib/src/stm32f10x_dac.c || cmake_object_order_depends_target_Project-core.elf
   CONFIG = Debug
@@ -233,8 +201,6 @@ build CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_dac.
   INCLUDES = -ID:/Data/Design/Project-core/core/inc -ID:/Data/Design/Project-core/drivers/STM32F10x_FWLib/inc -ID:/Data/Design/Project-core/drivers/system/delay -ID:/Data/Design/Project-core/drivers/system/sys -ID:/Data/Design/Project-core/drivers/system/usart -ID:/Data/Design/Project-core/core/startup -ID:/Data/Design/Project-core/drivers/hardware
   OBJECT_DIR = CMakeFiles\Project-core.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\Project-core.elf.dir\drivers\STM32F10x_FWLib\src
-  TARGET_COMPILE_PDB = CMakeFiles\Project-core.elf.dir\
-  TARGET_PDB = Project-core.elf.pdb
 
 build CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_dbgmcu.c.obj: C_COMPILER__Project-core.2eelf_unscanned_Debug D$:/Data/Design/Project-core/drivers/STM32F10x_FWLib/src/stm32f10x_dbgmcu.c || cmake_object_order_depends_target_Project-core.elf
   CONFIG = Debug
@@ -244,8 +210,6 @@ build CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_dbgm
   INCLUDES = -ID:/Data/Design/Project-core/core/inc -ID:/Data/Design/Project-core/drivers/STM32F10x_FWLib/inc -ID:/Data/Design/Project-core/drivers/system/delay -ID:/Data/Design/Project-core/drivers/system/sys -ID:/Data/Design/Project-core/drivers/system/usart -ID:/Data/Design/Project-core/core/startup -ID:/Data/Design/Project-core/drivers/hardware
   OBJECT_DIR = CMakeFiles\Project-core.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\Project-core.elf.dir\drivers\STM32F10x_FWLib\src
-  TARGET_COMPILE_PDB = CMakeFiles\Project-core.elf.dir\
-  TARGET_PDB = Project-core.elf.pdb
 
 build CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_dma.c.obj: C_COMPILER__Project-core.2eelf_unscanned_Debug D$:/Data/Design/Project-core/drivers/STM32F10x_FWLib/src/stm32f10x_dma.c || cmake_object_order_depends_target_Project-core.elf
   CONFIG = Debug
@@ -255,8 +219,6 @@ build CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_dma.
   INCLUDES = -ID:/Data/Design/Project-core/core/inc -ID:/Data/Design/Project-core/drivers/STM32F10x_FWLib/inc -ID:/Data/Design/Project-core/drivers/system/delay -ID:/Data/Design/Project-core/drivers/system/sys -ID:/Data/Design/Project-core/drivers/system/usart -ID:/Data/Design/Project-core/core/startup -ID:/Data/Design/Project-core/drivers/hardware
   OBJECT_DIR = CMakeFiles\Project-core.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\Project-core.elf.dir\drivers\STM32F10x_FWLib\src
-  TARGET_COMPILE_PDB = CMakeFiles\Project-core.elf.dir\
-  TARGET_PDB = Project-core.elf.pdb
 
 build CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_exti.c.obj: C_COMPILER__Project-core.2eelf_unscanned_Debug D$:/Data/Design/Project-core/drivers/STM32F10x_FWLib/src/stm32f10x_exti.c || cmake_object_order_depends_target_Project-core.elf
   CONFIG = Debug
@@ -266,8 +228,6 @@ build CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_exti
   INCLUDES = -ID:/Data/Design/Project-core/core/inc -ID:/Data/Design/Project-core/drivers/STM32F10x_FWLib/inc -ID:/Data/Design/Project-core/drivers/system/delay -ID:/Data/Design/Project-core/drivers/system/sys -ID:/Data/Design/Project-core/drivers/system/usart -ID:/Data/Design/Project-core/core/startup -ID:/Data/Design/Project-core/drivers/hardware
   OBJECT_DIR = CMakeFiles\Project-core.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\Project-core.elf.dir\drivers\STM32F10x_FWLib\src
-  TARGET_COMPILE_PDB = CMakeFiles\Project-core.elf.dir\
-  TARGET_PDB = Project-core.elf.pdb
 
 build CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_flash.c.obj: C_COMPILER__Project-core.2eelf_unscanned_Debug D$:/Data/Design/Project-core/drivers/STM32F10x_FWLib/src/stm32f10x_flash.c || cmake_object_order_depends_target_Project-core.elf
   CONFIG = Debug
@@ -277,8 +237,6 @@ build CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_flas
   INCLUDES = -ID:/Data/Design/Project-core/core/inc -ID:/Data/Design/Project-core/drivers/STM32F10x_FWLib/inc -ID:/Data/Design/Project-core/drivers/system/delay -ID:/Data/Design/Project-core/drivers/system/sys -ID:/Data/Design/Project-core/drivers/system/usart -ID:/Data/Design/Project-core/core/startup -ID:/Data/Design/Project-core/drivers/hardware
   OBJECT_DIR = CMakeFiles\Project-core.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\Project-core.elf.dir\drivers\STM32F10x_FWLib\src
-  TARGET_COMPILE_PDB = CMakeFiles\Project-core.elf.dir\
-  TARGET_PDB = Project-core.elf.pdb
 
 build CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_fsmc.c.obj: C_COMPILER__Project-core.2eelf_unscanned_Debug D$:/Data/Design/Project-core/drivers/STM32F10x_FWLib/src/stm32f10x_fsmc.c || cmake_object_order_depends_target_Project-core.elf
   CONFIG = Debug
@@ -288,8 +246,6 @@ build CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_fsmc
   INCLUDES = -ID:/Data/Design/Project-core/core/inc -ID:/Data/Design/Project-core/drivers/STM32F10x_FWLib/inc -ID:/Data/Design/Project-core/drivers/system/delay -ID:/Data/Design/Project-core/drivers/system/sys -ID:/Data/Design/Project-core/drivers/system/usart -ID:/Data/Design/Project-core/core/startup -ID:/Data/Design/Project-core/drivers/hardware
   OBJECT_DIR = CMakeFiles\Project-core.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\Project-core.elf.dir\drivers\STM32F10x_FWLib\src
-  TARGET_COMPILE_PDB = CMakeFiles\Project-core.elf.dir\
-  TARGET_PDB = Project-core.elf.pdb
 
 build CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_gpio.c.obj: C_COMPILER__Project-core.2eelf_unscanned_Debug D$:/Data/Design/Project-core/drivers/STM32F10x_FWLib/src/stm32f10x_gpio.c || cmake_object_order_depends_target_Project-core.elf
   CONFIG = Debug
@@ -299,8 +255,6 @@ build CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_gpio
   INCLUDES = -ID:/Data/Design/Project-core/core/inc -ID:/Data/Design/Project-core/drivers/STM32F10x_FWLib/inc -ID:/Data/Design/Project-core/drivers/system/delay -ID:/Data/Design/Project-core/drivers/system/sys -ID:/Data/Design/Project-core/drivers/system/usart -ID:/Data/Design/Project-core/core/startup -ID:/Data/Design/Project-core/drivers/hardware
   OBJECT_DIR = CMakeFiles\Project-core.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\Project-core.elf.dir\drivers\STM32F10x_FWLib\src
-  TARGET_COMPILE_PDB = CMakeFiles\Project-core.elf.dir\
-  TARGET_PDB = Project-core.elf.pdb
 
 build CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_i2c.c.obj: C_COMPILER__Project-core.2eelf_unscanned_Debug D$:/Data/Design/Project-core/drivers/STM32F10x_FWLib/src/stm32f10x_i2c.c || cmake_object_order_depends_target_Project-core.elf
   CONFIG = Debug
@@ -310,8 +264,6 @@ build CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_i2c.
   INCLUDES = -ID:/Data/Design/Project-core/core/inc -ID:/Data/Design/Project-core/drivers/STM32F10x_FWLib/inc -ID:/Data/Design/Project-core/drivers/system/delay -ID:/Data/Design/Project-core/drivers/system/sys -ID:/Data/Design/Project-core/drivers/system/usart -ID:/Data/Design/Project-core/core/startup -ID:/Data/Design/Project-core/drivers/hardware
   OBJECT_DIR = CMakeFiles\Project-core.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\Project-core.elf.dir\drivers\STM32F10x_FWLib\src
-  TARGET_COMPILE_PDB = CMakeFiles\Project-core.elf.dir\
-  TARGET_PDB = Project-core.elf.pdb
 
 build CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_iwdg.c.obj: C_COMPILER__Project-core.2eelf_unscanned_Debug D$:/Data/Design/Project-core/drivers/STM32F10x_FWLib/src/stm32f10x_iwdg.c || cmake_object_order_depends_target_Project-core.elf
   CONFIG = Debug
@@ -321,8 +273,6 @@ build CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_iwdg
   INCLUDES = -ID:/Data/Design/Project-core/core/inc -ID:/Data/Design/Project-core/drivers/STM32F10x_FWLib/inc -ID:/Data/Design/Project-core/drivers/system/delay -ID:/Data/Design/Project-core/drivers/system/sys -ID:/Data/Design/Project-core/drivers/system/usart -ID:/Data/Design/Project-core/core/startup -ID:/Data/Design/Project-core/drivers/hardware
   OBJECT_DIR = CMakeFiles\Project-core.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\Project-core.elf.dir\drivers\STM32F10x_FWLib\src
-  TARGET_COMPILE_PDB = CMakeFiles\Project-core.elf.dir\
-  TARGET_PDB = Project-core.elf.pdb
 
 build CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_pwr.c.obj: C_COMPILER__Project-core.2eelf_unscanned_Debug D$:/Data/Design/Project-core/drivers/STM32F10x_FWLib/src/stm32f10x_pwr.c || cmake_object_order_depends_target_Project-core.elf
   CONFIG = Debug
@@ -332,8 +282,6 @@ build CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_pwr.
   INCLUDES = -ID:/Data/Design/Project-core/core/inc -ID:/Data/Design/Project-core/drivers/STM32F10x_FWLib/inc -ID:/Data/Design/Project-core/drivers/system/delay -ID:/Data/Design/Project-core/drivers/system/sys -ID:/Data/Design/Project-core/drivers/system/usart -ID:/Data/Design/Project-core/core/startup -ID:/Data/Design/Project-core/drivers/hardware
   OBJECT_DIR = CMakeFiles\Project-core.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\Project-core.elf.dir\drivers\STM32F10x_FWLib\src
-  TARGET_COMPILE_PDB = CMakeFiles\Project-core.elf.dir\
-  TARGET_PDB = Project-core.elf.pdb
 
 build CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_rcc.c.obj: C_COMPILER__Project-core.2eelf_unscanned_Debug D$:/Data/Design/Project-core/drivers/STM32F10x_FWLib/src/stm32f10x_rcc.c || cmake_object_order_depends_target_Project-core.elf
   CONFIG = Debug
@@ -343,8 +291,6 @@ build CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_rcc.
   INCLUDES = -ID:/Data/Design/Project-core/core/inc -ID:/Data/Design/Project-core/drivers/STM32F10x_FWLib/inc -ID:/Data/Design/Project-core/drivers/system/delay -ID:/Data/Design/Project-core/drivers/system/sys -ID:/Data/Design/Project-core/drivers/system/usart -ID:/Data/Design/Project-core/core/startup -ID:/Data/Design/Project-core/drivers/hardware
   OBJECT_DIR = CMakeFiles\Project-core.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\Project-core.elf.dir\drivers\STM32F10x_FWLib\src
-  TARGET_COMPILE_PDB = CMakeFiles\Project-core.elf.dir\
-  TARGET_PDB = Project-core.elf.pdb
 
 build CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_rtc.c.obj: C_COMPILER__Project-core.2eelf_unscanned_Debug D$:/Data/Design/Project-core/drivers/STM32F10x_FWLib/src/stm32f10x_rtc.c || cmake_object_order_depends_target_Project-core.elf
   CONFIG = Debug
@@ -354,8 +300,6 @@ build CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_rtc.
   INCLUDES = -ID:/Data/Design/Project-core/core/inc -ID:/Data/Design/Project-core/drivers/STM32F10x_FWLib/inc -ID:/Data/Design/Project-core/drivers/system/delay -ID:/Data/Design/Project-core/drivers/system/sys -ID:/Data/Design/Project-core/drivers/system/usart -ID:/Data/Design/Project-core/core/startup -ID:/Data/Design/Project-core/drivers/hardware
   OBJECT_DIR = CMakeFiles\Project-core.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\Project-core.elf.dir\drivers\STM32F10x_FWLib\src
-  TARGET_COMPILE_PDB = CMakeFiles\Project-core.elf.dir\
-  TARGET_PDB = Project-core.elf.pdb
 
 build CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_sdio.c.obj: C_COMPILER__Project-core.2eelf_unscanned_Debug D$:/Data/Design/Project-core/drivers/STM32F10x_FWLib/src/stm32f10x_sdio.c || cmake_object_order_depends_target_Project-core.elf
   CONFIG = Debug
@@ -365,8 +309,6 @@ build CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_sdio
   INCLUDES = -ID:/Data/Design/Project-core/core/inc -ID:/Data/Design/Project-core/drivers/STM32F10x_FWLib/inc -ID:/Data/Design/Project-core/drivers/system/delay -ID:/Data/Design/Project-core/drivers/system/sys -ID:/Data/Design/Project-core/drivers/system/usart -ID:/Data/Design/Project-core/core/startup -ID:/Data/Design/Project-core/drivers/hardware
   OBJECT_DIR = CMakeFiles\Project-core.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\Project-core.elf.dir\drivers\STM32F10x_FWLib\src
-  TARGET_COMPILE_PDB = CMakeFiles\Project-core.elf.dir\
-  TARGET_PDB = Project-core.elf.pdb
 
 build CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_spi.c.obj: C_COMPILER__Project-core.2eelf_unscanned_Debug D$:/Data/Design/Project-core/drivers/STM32F10x_FWLib/src/stm32f10x_spi.c || cmake_object_order_depends_target_Project-core.elf
   CONFIG = Debug
@@ -376,8 +318,6 @@ build CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_spi.
   INCLUDES = -ID:/Data/Design/Project-core/core/inc -ID:/Data/Design/Project-core/drivers/STM32F10x_FWLib/inc -ID:/Data/Design/Project-core/drivers/system/delay -ID:/Data/Design/Project-core/drivers/system/sys -ID:/Data/Design/Project-core/drivers/system/usart -ID:/Data/Design/Project-core/core/startup -ID:/Data/Design/Project-core/drivers/hardware
   OBJECT_DIR = CMakeFiles\Project-core.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\Project-core.elf.dir\drivers\STM32F10x_FWLib\src
-  TARGET_COMPILE_PDB = CMakeFiles\Project-core.elf.dir\
-  TARGET_PDB = Project-core.elf.pdb
 
 build CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_tim.c.obj: C_COMPILER__Project-core.2eelf_unscanned_Debug D$:/Data/Design/Project-core/drivers/STM32F10x_FWLib/src/stm32f10x_tim.c || cmake_object_order_depends_target_Project-core.elf
   CONFIG = Debug
@@ -387,8 +327,6 @@ build CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_tim.
   INCLUDES = -ID:/Data/Design/Project-core/core/inc -ID:/Data/Design/Project-core/drivers/STM32F10x_FWLib/inc -ID:/Data/Design/Project-core/drivers/system/delay -ID:/Data/Design/Project-core/drivers/system/sys -ID:/Data/Design/Project-core/drivers/system/usart -ID:/Data/Design/Project-core/core/startup -ID:/Data/Design/Project-core/drivers/hardware
   OBJECT_DIR = CMakeFiles\Project-core.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\Project-core.elf.dir\drivers\STM32F10x_FWLib\src
-  TARGET_COMPILE_PDB = CMakeFiles\Project-core.elf.dir\
-  TARGET_PDB = Project-core.elf.pdb
 
 build CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_usart.c.obj: C_COMPILER__Project-core.2eelf_unscanned_Debug D$:/Data/Design/Project-core/drivers/STM32F10x_FWLib/src/stm32f10x_usart.c || cmake_object_order_depends_target_Project-core.elf
   CONFIG = Debug
@@ -398,8 +336,6 @@ build CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_usar
   INCLUDES = -ID:/Data/Design/Project-core/core/inc -ID:/Data/Design/Project-core/drivers/STM32F10x_FWLib/inc -ID:/Data/Design/Project-core/drivers/system/delay -ID:/Data/Design/Project-core/drivers/system/sys -ID:/Data/Design/Project-core/drivers/system/usart -ID:/Data/Design/Project-core/core/startup -ID:/Data/Design/Project-core/drivers/hardware
   OBJECT_DIR = CMakeFiles\Project-core.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\Project-core.elf.dir\drivers\STM32F10x_FWLib\src
-  TARGET_COMPILE_PDB = CMakeFiles\Project-core.elf.dir\
-  TARGET_PDB = Project-core.elf.pdb
 
 build CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_wwdg.c.obj: C_COMPILER__Project-core.2eelf_unscanned_Debug D$:/Data/Design/Project-core/drivers/STM32F10x_FWLib/src/stm32f10x_wwdg.c || cmake_object_order_depends_target_Project-core.elf
   CONFIG = Debug
@@ -409,8 +345,6 @@ build CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_wwdg
   INCLUDES = -ID:/Data/Design/Project-core/core/inc -ID:/Data/Design/Project-core/drivers/STM32F10x_FWLib/inc -ID:/Data/Design/Project-core/drivers/system/delay -ID:/Data/Design/Project-core/drivers/system/sys -ID:/Data/Design/Project-core/drivers/system/usart -ID:/Data/Design/Project-core/core/startup -ID:/Data/Design/Project-core/drivers/hardware
   OBJECT_DIR = CMakeFiles\Project-core.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\Project-core.elf.dir\drivers\STM32F10x_FWLib\src
-  TARGET_COMPILE_PDB = CMakeFiles\Project-core.elf.dir\
-  TARGET_PDB = Project-core.elf.pdb
 
 
 # =============================================================================
@@ -427,9 +361,8 @@ build Project-core.elf: C_EXECUTABLE_LINKER__Project-core.2eelf_Debug CMakeFiles
   OBJECT_DIR = CMakeFiles\Project-core.elf.dir
   POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\Data\Design\Project-core\build && arm-none-eabi-objcopy -Oihex D:/Data/Design/Project-core/build/Project-core.elf D:/Data/Design/Project-core/build/Project-core.hex && arm-none-eabi-objcopy -Obinary D:/Data/Design/Project-core/build/Project-core.elf D:/Data/Design/Project-core/build/Project-core.bin && arm-none-eabi-size D:/Data/Design/Project-core/build/Project-core.elf"
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\Project-core.elf.dir\
   TARGET_FILE = Project-core.elf
-  TARGET_PDB = Project-core.elf.pdb
+  TARGET_PDB = Project-core.elf.dbg
 
 
 #############################################
@@ -488,14 +421,14 @@ build all: phony Project-core.elf
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja D$:/Data/Design/Project-core/build/cmake_install.cmake: RERUN_CMAKE | C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeASMCompiler.cmake.in C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeASMInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeCCompiler.cmake.in C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeCCompilerABI.c C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeCInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeCXXCompiler.cmake.in C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeCompilerIdDetection.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeDetermineASMCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerSupport.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeNinjaFindMake.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeParseLibraryArchitecture.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeSystem.cmake.in C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeTestASMCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeTestCompilerCommon.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/Diab-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/GNU-ASM.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/GNU-CXX-CXXImportStd.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/Renesas-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Internal/CMakeASMLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Internal/CMakeCLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Internal/CMakeInspectASMLinker.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Internal/CMakeInspectCLinker.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Internal/CMakeInspectCXXLinker.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Internal/FeatureTesting.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Platform/Generic.cmake CMakeCache.txt CMakeFiles/4.1.2/CMakeASMCompiler.cmake CMakeFiles/4.1.2/CMakeCCompiler.cmake CMakeFiles/4.1.2/CMakeCXXCompiler.cmake CMakeFiles/4.1.2/CMakeSystem.cmake D$:/Data/Design/Project-core/CMakeLists.txt D$:/Data/Design/Project-core/arm-gcc.cmake
+build build.ninja D$:/Data/Design/Project-core/build/cmake_install.cmake: RERUN_CMAKE | C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeASMInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeCInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/GNU-ASM.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Internal/CMakeASMLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Internal/CMakeCLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Platform/Generic.cmake CMakeCache.txt CMakeFiles/4.1.2/CMakeASMCompiler.cmake CMakeFiles/4.1.2/CMakeCCompiler.cmake CMakeFiles/4.1.2/CMakeCXXCompiler.cmake CMakeFiles/4.1.2/CMakeSystem.cmake D$:/Data/Design/Project-core/CMakeLists.txt D$:/Data/Design/Project-core/arm-gcc.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeASMCompiler.cmake.in C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeASMInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeCCompiler.cmake.in C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeCCompilerABI.c C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeCInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeCXXCompiler.cmake.in C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeCompilerIdDetection.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeDetermineASMCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerSupport.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeNinjaFindMake.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeParseLibraryArchitecture.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeSystem.cmake.in C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeTestASMCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeTestCompilerCommon.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/Diab-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/GNU-ASM.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/GNU-CXX-CXXImportStd.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/Renesas-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Internal/CMakeASMLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Internal/CMakeCLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Internal/CMakeInspectASMLinker.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Internal/CMakeInspectCLinker.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Internal/CMakeInspectCXXLinker.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Internal/FeatureTesting.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Platform/Generic.cmake CMakeCache.txt CMakeFiles/4.1.2/CMakeASMCompiler.cmake CMakeFiles/4.1.2/CMakeCCompiler.cmake CMakeFiles/4.1.2/CMakeCXXCompiler.cmake CMakeFiles/4.1.2/CMakeSystem.cmake D$:/Data/Design/Project-core/CMakeLists.txt D$:/Data/Design/Project-core/arm-gcc.cmake: phony
+build C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeASMInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeCInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/GNU-ASM.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Compiler/GNU.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Internal/CMakeASMLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Internal/CMakeCLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Internal/CMakeCXXLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/Program$ Files/CMake/share/cmake-4.1/Modules/Platform/Generic.cmake CMakeCache.txt CMakeFiles/4.1.2/CMakeASMCompiler.cmake CMakeFiles/4.1.2/CMakeCCompiler.cmake CMakeFiles/4.1.2/CMakeCXXCompiler.cmake CMakeFiles/4.1.2/CMakeSystem.cmake D$:/Data/Design/Project-core/CMakeLists.txt D$:/Data/Design/Project-core/arm-gcc.cmake: phony
 
 
 #############################################
