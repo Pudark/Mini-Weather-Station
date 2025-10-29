@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "STM32",
+            "includePath": [
+                "${workspaceFolder}/core/inc",
+                "${workspaceFolder}/drivers/STM32F10x_FWLib/inc",
+                "${workspaceFolder}/drivers/hardware",
+                "${workspaceFolder}/drivers/system",
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/core/startup"
+            ],
+            "defines": [
+                "USE_STDPERIPH_DRIVER",
+                "STM32F10X_MD"
+            ],
+            "compilerPath": "arm-none-eabi-gcc",
+            "cStandard": "c99",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "gcc-arm"
+        }
+    ],
+    "version": 4
+}

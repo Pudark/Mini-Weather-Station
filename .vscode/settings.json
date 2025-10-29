@@ -1,0 +1,6 @@
+{
+    "cmake.generator": "Ninja",
+    "cmake.configureArgs": [
+        "-DCMAKE_TOOLCHAIN_FILE=${workspaceFolder}/arm-gcc.cmake"
+    ]
+}
