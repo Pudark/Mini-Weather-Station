@@ -58,6 +58,7 @@ include_directories(
     ${CMAKE_SOURCE_DIR}/drivers/system/delay
     ${CMAKE_SOURCE_DIR}/drivers/system/sys
     ${CMAKE_SOURCE_DIR}/drivers/system/usart
+    ${CMAKE_SOURCE_DIR}/drivers/system/miniprintf
     ${CMAKE_SOURCE_DIR}/core/startup
 )
 
@@ -81,6 +82,7 @@ set(CORE_SOURCES
 file(GLOB_RECURSE SYSTEM_SOURCES_DELAY "${CMAKE_SOURCE_DIR}/drivers/system/delay/*.c")
 file(GLOB_RECURSE SYSTEM_SOURCES_SYS "${CMAKE_SOURCE_DIR}/drivers/system/sys/*.c")
 file(GLOB_RECURSE SYSTEM_SOURCES_USART "${CMAKE_SOURCE_DIR}/drivers/system/usart/*.c")
+file(GLOB_RECURSE SYSTEM_SOURCES_PRINTF "${CMAKE_SOURCE_DIR}/drivers/system/miniprintf/*.c")
 file(GLOB_RECURSE HARDWARE_SOURCES "${CMAKE_SOURCE_DIR}/drivers/HARDWARE/*.c")
 file(GLOB STD_LIB_SOURCES "${CMAKE_SOURCE_DIR}/drivers/STM32F10x_FWLib/src/*.c")
 
@@ -89,7 +91,8 @@ set(SOURCES
     ${CORE_SOURCES}
     ${SYSTEM_SOURCES_USART}
     ${SYSTEM_SOURCES_DELAY}
-    ${SYSTEM_SOURCES_SYS}       
+    ${SYSTEM_SOURCES_SYS}
+    ${SYSTEM_SOURCES_PRINTF}       
     ${HARDWARE_SOURCES}
     ${STD_LIB_SOURCES}
 )

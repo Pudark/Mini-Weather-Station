@@ -8,7 +8,8 @@
                 "${workspaceFolder}/drivers/hardware",
                 "${workspaceFolder}/drivers/system",
                 "${workspaceFolder}/**",
-                "${workspaceFolder}/core/startup"
+                "${workspaceFolder}/core/startup",
+                "${workspaceFolder}/drivers/SYSTEM/delay"
             ],
             "defines": [
                 "USE_STDPERIPH_DRIVER",

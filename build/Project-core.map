@@ -1,5 +1,17 @@
 Archive member included to satisfy reference by file (symbol)
 
+C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1\libgcc.a(_arm_mulsf3.o)
+                              CMakeFiles/Project-core.elf.dir/drivers/system/miniprintf/mini_printf.c.obj (__aeabi_fmul)
+C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1\libgcc.a(_arm_truncdfsf2.o)
+                              CMakeFiles/Project-core.elf.dir/drivers/system/miniprintf/mini_printf.c.obj (__aeabi_d2f)
+C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1\libgcc.a(_arm_addsubsf3.o)
+                              CMakeFiles/Project-core.elf.dir/drivers/system/miniprintf/mini_printf.c.obj (__aeabi_fsub)
+C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1\libgcc.a(_arm_cmpsf2.o)
+                              CMakeFiles/Project-core.elf.dir/drivers/system/miniprintf/mini_printf.c.obj (__aeabi_fcmplt)
+C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1\libgcc.a(_arm_fixsfsi.o)
+                              CMakeFiles/Project-core.elf.dir/drivers/system/miniprintf/mini_printf.c.obj (__aeabi_f2iz)
+C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1\libgcc.a(_arm_fixunssfsi.o)
+                              CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/lcd.c.obj (__aeabi_f2uiz)
 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib\libg.a(libc_a-exit.o)
                               C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/crt0.o (exit)
 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib\libg.a(libc_a-findfp.o)
@@ -97,48 +109,12 @@ Discarded input sections
  .text          0x00000000        0x0 CMakeFiles/Project-core.elf.dir/drivers/system/usart/usart.c.obj
  .data          0x00000000        0x0 CMakeFiles/Project-core.elf.dir/drivers/system/usart/usart.c.obj
  .bss           0x00000000        0x0 CMakeFiles/Project-core.elf.dir/drivers/system/usart/usart.c.obj
- .text.USART1_Config
-                0x00000000       0x80 CMakeFiles/Project-core.elf.dir/drivers/system/usart/usart.c.obj
  .text.fputc    0x00000000       0x20 CMakeFiles/Project-core.elf.dir/drivers/system/usart/usart.c.obj
- .debug_info    0x00000000      0xb7a CMakeFiles/Project-core.elf.dir/drivers/system/usart/usart.c.obj
- .debug_abbrev  0x00000000      0x25c CMakeFiles/Project-core.elf.dir/drivers/system/usart/usart.c.obj
- .debug_loclists
-                0x00000000       0x44 CMakeFiles/Project-core.elf.dir/drivers/system/usart/usart.c.obj
- .debug_aranges
-                0x00000000       0x28 CMakeFiles/Project-core.elf.dir/drivers/system/usart/usart.c.obj
- .debug_rnglists
-                0x00000000       0x1a CMakeFiles/Project-core.elf.dir/drivers/system/usart/usart.c.obj
- .debug_line    0x00000000      0x386 CMakeFiles/Project-core.elf.dir/drivers/system/usart/usart.c.obj
- .debug_str     0x00000000      0x76f CMakeFiles/Project-core.elf.dir/drivers/system/usart/usart.c.obj
- .comment       0x00000000       0x47 CMakeFiles/Project-core.elf.dir/drivers/system/usart/usart.c.obj
- .debug_frame   0x00000000       0x48 CMakeFiles/Project-core.elf.dir/drivers/system/usart/usart.c.obj
- .ARM.attributes
-                0x00000000       0x2d CMakeFiles/Project-core.elf.dir/drivers/system/usart/usart.c.obj
  .text          0x00000000        0x0 CMakeFiles/Project-core.elf.dir/drivers/system/delay/delay.c.obj
  .data          0x00000000        0x0 CMakeFiles/Project-core.elf.dir/drivers/system/delay/delay.c.obj
  .bss           0x00000000        0x0 CMakeFiles/Project-core.elf.dir/drivers/system/delay/delay.c.obj
- .text.delay_init
-                0x00000000       0x2c CMakeFiles/Project-core.elf.dir/drivers/system/delay/delay.c.obj
- .text.delay_ms
-                0x00000000       0x34 CMakeFiles/Project-core.elf.dir/drivers/system/delay/delay.c.obj
  .text.delay_us
                 0x00000000       0x34 CMakeFiles/Project-core.elf.dir/drivers/system/delay/delay.c.obj
- .bss.fac_ms    0x00000000        0x2 CMakeFiles/Project-core.elf.dir/drivers/system/delay/delay.c.obj
- .bss.fac_us    0x00000000        0x1 CMakeFiles/Project-core.elf.dir/drivers/system/delay/delay.c.obj
- .debug_info    0x00000000      0x207 CMakeFiles/Project-core.elf.dir/drivers/system/delay/delay.c.obj
- .debug_abbrev  0x00000000      0x150 CMakeFiles/Project-core.elf.dir/drivers/system/delay/delay.c.obj
- .debug_loclists
-                0x00000000       0x80 CMakeFiles/Project-core.elf.dir/drivers/system/delay/delay.c.obj
- .debug_aranges
-                0x00000000       0x30 CMakeFiles/Project-core.elf.dir/drivers/system/delay/delay.c.obj
- .debug_rnglists
-                0x00000000       0x1f CMakeFiles/Project-core.elf.dir/drivers/system/delay/delay.c.obj
- .debug_line    0x00000000      0x2bc CMakeFiles/Project-core.elf.dir/drivers/system/delay/delay.c.obj
- .debug_str     0x00000000      0x234 CMakeFiles/Project-core.elf.dir/drivers/system/delay/delay.c.obj
- .comment       0x00000000       0x47 CMakeFiles/Project-core.elf.dir/drivers/system/delay/delay.c.obj
- .debug_frame   0x00000000       0x48 CMakeFiles/Project-core.elf.dir/drivers/system/delay/delay.c.obj
- .ARM.attributes
-                0x00000000       0x2d CMakeFiles/Project-core.elf.dir/drivers/system/delay/delay.c.obj
  .text          0x00000000        0x0 CMakeFiles/Project-core.elf.dir/drivers/system/sys/sys.c.obj
  .data          0x00000000        0x0 CMakeFiles/Project-core.elf.dir/drivers/system/sys/sys.c.obj
  .bss           0x00000000        0x0 CMakeFiles/Project-core.elf.dir/drivers/system/sys/sys.c.obj
@@ -160,33 +136,71 @@ Discarded input sections
  .debug_frame   0x00000000       0x50 CMakeFiles/Project-core.elf.dir/drivers/system/sys/sys.c.obj
  .ARM.attributes
                 0x00000000       0x2d CMakeFiles/Project-core.elf.dir/drivers/system/sys/sys.c.obj
+ .text          0x00000000        0x0 CMakeFiles/Project-core.elf.dir/drivers/system/miniprintf/mini_printf.c.obj
+ .data          0x00000000        0x0 CMakeFiles/Project-core.elf.dir/drivers/system/miniprintf/mini_printf.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/Project-core.elf.dir/drivers/system/miniprintf/mini_printf.c.obj
+ .text.mini_putc
+                0x00000000       0x10 CMakeFiles/Project-core.elf.dir/drivers/system/miniprintf/mini_printf.c.obj
+ .text.mini_printf_set_putc
+                0x00000000        0xc CMakeFiles/Project-core.elf.dir/drivers/system/miniprintf/mini_printf.c.obj
+ .text.int_to_str
+                0x00000000       0x78 CMakeFiles/Project-core.elf.dir/drivers/system/miniprintf/mini_printf.c.obj
+ .text.uint_to_str
+                0x00000000       0x60 CMakeFiles/Project-core.elf.dir/drivers/system/miniprintf/mini_printf.c.obj
+ .text.float_to_str
+                0x00000000       0x84 CMakeFiles/Project-core.elf.dir/drivers/system/miniprintf/mini_printf.c.obj
+ .text.mini_printf
+                0x00000000      0x12c CMakeFiles/Project-core.elf.dir/drivers/system/miniprintf/mini_printf.c.obj
+ .bss.putc_func
+                0x00000000        0x4 CMakeFiles/Project-core.elf.dir/drivers/system/miniprintf/mini_printf.c.obj
+ .debug_info    0x00000000      0x51c CMakeFiles/Project-core.elf.dir/drivers/system/miniprintf/mini_printf.c.obj
+ .debug_abbrev  0x00000000      0x1b2 CMakeFiles/Project-core.elf.dir/drivers/system/miniprintf/mini_printf.c.obj
+ .debug_loclists
+                0x00000000      0x337 CMakeFiles/Project-core.elf.dir/drivers/system/miniprintf/mini_printf.c.obj
+ .debug_aranges
+                0x00000000       0x48 CMakeFiles/Project-core.elf.dir/drivers/system/miniprintf/mini_printf.c.obj
+ .debug_rnglists
+                0x00000000       0x3f CMakeFiles/Project-core.elf.dir/drivers/system/miniprintf/mini_printf.c.obj
+ .debug_line    0x00000000      0x52f CMakeFiles/Project-core.elf.dir/drivers/system/miniprintf/mini_printf.c.obj
+ .debug_str     0x00000000      0x2c2 CMakeFiles/Project-core.elf.dir/drivers/system/miniprintf/mini_printf.c.obj
+ .comment       0x00000000       0x47 CMakeFiles/Project-core.elf.dir/drivers/system/miniprintf/mini_printf.c.obj
+ .debug_frame   0x00000000       0xe4 CMakeFiles/Project-core.elf.dir/drivers/system/miniprintf/mini_printf.c.obj
+ .ARM.attributes
+                0x00000000       0x2d CMakeFiles/Project-core.elf.dir/drivers/system/miniprintf/mini_printf.c.obj
  .text          0x00000000        0x0 CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/lcd.c.obj
  .data          0x00000000        0x0 CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/lcd.c.obj
  .bss           0x00000000        0x0 CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/lcd.c.obj
- .text.LCD_GPIO_Init
-                0x00000000       0x30 CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/lcd.c.obj
- .text.LCD_WR_REG
-                0x00000000       0x2c CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/lcd.c.obj
- .text.LCD_WR_DATA
-                0x00000000       0x2c CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/lcd.c.obj
- .text.LCD_ReadID
-                0x00000000       0x1e CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/lcd.c.obj
- .text.LCD_Init
-                0x00000000       0x30 CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/lcd.c.obj
- .debug_info    0x00000000      0x4d4 CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/lcd.c.obj
- .debug_abbrev  0x00000000      0x213 CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/lcd.c.obj
- .debug_loclists
-                0x00000000       0x70 CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/lcd.c.obj
- .debug_aranges
-                0x00000000       0x40 CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/lcd.c.obj
- .debug_rnglists
-                0x00000000       0x2b CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/lcd.c.obj
- .debug_line    0x00000000      0x2d6 CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/lcd.c.obj
- .debug_str     0x00000000      0x3bf CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/lcd.c.obj
- .comment       0x00000000       0x47 CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/lcd.c.obj
- .debug_frame   0x00000000       0x94 CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/lcd.c.obj
- .ARM.attributes
-                0x00000000       0x2d CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/lcd.c.obj
+ .text.LCD_DrawLine
+                0x00000000       0xa6 CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/lcd.c.obj
+ .text.LCD_DrawRectangle
+                0x00000000       0x52 CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/lcd.c.obj
+ .text.Draw_Circle
+                0x00000000       0xca CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/lcd.c.obj
+ .text.LCD_ShowChinese12x12
+                0x00000000      0x134 CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/lcd.c.obj
+ .text.LCD_ShowChinese16x16
+                0x00000000      0x134 CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/lcd.c.obj
+ .text.LCD_ShowChinese24x24
+                0x00000000      0x130 CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/lcd.c.obj
+ .text.LCD_ShowChinese32x32
+                0x00000000      0x134 CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/lcd.c.obj
+ .text.LCD_ShowChinese
+                0x00000000       0xb6 CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/lcd.c.obj
+ .text.mypow    0x00000000       0x16 CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/lcd.c.obj
+ .text.LCD_ShowIntNum
+                0x00000000       0xa8 CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/lcd.c.obj
+ .text.LCD_ShowFloatNum1
+                0x00000000       0xb8 CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/lcd.c.obj
+ .text.LCD_ShowPicture
+                0x00000000       0x54 CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/lcd.c.obj
+ .rodata.tfont32
+                0x00000000      0x108 CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/lcd.c.obj
+ .rodata.tfont24
+                0x00000000       0x98 CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/lcd.c.obj
+ .rodata.tfont16
+                0x00000000       0x90 CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/lcd.c.obj
+ .rodata.tfont12
+                0x00000000       0x38 CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/lcd.c.obj
  .text          0x00000000        0x0 CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/led.c.obj
  .data          0x00000000        0x0 CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/led.c.obj
  .bss           0x00000000        0x0 CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/led.c.obj
@@ -228,22 +242,6 @@ Discarded input sections
                 0x00000000       0x14 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/misc.c.obj
  .text.NVIC_SystemLPConfig
                 0x00000000       0x1c CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/misc.c.obj
- .text.SysTick_CLKSourceConfig
-                0x00000000       0x20 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/misc.c.obj
- .debug_info    0x00000000      0x4f4 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/misc.c.obj
- .debug_abbrev  0x00000000      0x1a4 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/misc.c.obj
- .debug_loclists
-                0x00000000      0x123 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/misc.c.obj
- .debug_aranges
-                0x00000000       0x40 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/misc.c.obj
- .debug_rnglists
-                0x00000000       0x2b CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/misc.c.obj
- .debug_line    0x00000000      0x328 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/misc.c.obj
- .debug_str     0x00000000      0x3f4 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/misc.c.obj
- .comment       0x00000000       0x47 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/misc.c.obj
- .debug_frame   0x00000000       0x60 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/misc.c.obj
- .ARM.attributes
-                0x00000000       0x2d CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/misc.c.obj
  .text          0x00000000        0x0 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_adc.c.obj
  .data          0x00000000        0x0 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_adc.c.obj
  .bss           0x00000000        0x0 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_adc.c.obj
@@ -788,8 +786,6 @@ Discarded input sections
                 0x00000000        0x6 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_gpio.c.obj
  .text.GPIO_ReadOutputData
                 0x00000000        0x6 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_gpio.c.obj
- .text.GPIO_SetBits
-                0x00000000        0x4 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_gpio.c.obj
  .text.GPIO_Write
                 0x00000000        0x4 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_gpio.c.obj
  .text.GPIO_PinLockConfig
@@ -989,8 +985,6 @@ Discarded input sections
                 0x00000000       0x10 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_rcc.c.obj
  .text.RCC_RTCCLKCmd
                 0x00000000        0xc CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_rcc.c.obj
- .text.RCC_GetClocksFreq
-                0x00000000       0xb4 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_rcc.c.obj
  .text.RCC_AHBPeriphClockCmd
                 0x00000000       0x1c CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_rcc.c.obj
  .text.RCC_APB1PeriphClockCmd
@@ -1015,10 +1009,6 @@ Discarded input sections
                 0x00000000       0x14 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_rcc.c.obj
  .text.RCC_ClearITPendingBit
                 0x00000000        0xc CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_rcc.c.obj
- .rodata.ADCPrescTable
-                0x00000000        0x4 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_rcc.c.obj
- .rodata.APBAHBPrescTable
-                0x00000000       0x10 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_rcc.c.obj
  .text          0x00000000        0x0 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_rtc.c.obj
  .data          0x00000000        0x0 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_rtc.c.obj
  .bss           0x00000000        0x0 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_rtc.c.obj
@@ -1405,16 +1395,12 @@ Discarded input sections
  .bss           0x00000000        0x0 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_usart.c.obj
  .text.USART_DeInit
                 0x00000000       0xa4 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_usart.c.obj
- .text.USART_Init
-                0x00000000       0xc4 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_usart.c.obj
  .text.USART_StructInit
                 0x00000000       0x16 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_usart.c.obj
  .text.USART_ClockInit
                 0x00000000       0x26 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_usart.c.obj
  .text.USART_ClockStructInit
                 0x00000000        0xc CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_usart.c.obj
- .text.USART_Cmd
-                0x00000000       0x1c CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_usart.c.obj
  .text.USART_ITConfig
                 0x00000000       0x36 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_usart.c.obj
  .text.USART_DMACmd
@@ -1461,20 +1447,6 @@ Discarded input sections
                 0x00000000       0x4a CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_usart.c.obj
  .text.USART_ClearITPendingBit
                 0x00000000       0x10 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_usart.c.obj
- .debug_info    0x00000000      0xb82 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_usart.c.obj
- .debug_abbrev  0x00000000      0x209 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_usart.c.obj
- .debug_loclists
-                0x00000000      0x62d CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_usart.c.obj
- .debug_aranges
-                0x00000000      0x100 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_usart.c.obj
- .debug_rnglists
-                0x00000000       0xbd CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_usart.c.obj
- .debug_line    0x00000000      0x94f CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_usart.c.obj
- .debug_str     0x00000000      0x70c CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_usart.c.obj
- .comment       0x00000000       0x47 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_usart.c.obj
- .debug_frame   0x00000000      0x204 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_usart.c.obj
- .ARM.attributes
-                0x00000000       0x2d CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_usart.c.obj
  .text          0x00000000        0x0 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_wwdg.c.obj
  .data          0x00000000        0x0 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_wwdg.c.obj
  .bss           0x00000000        0x0 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_wwdg.c.obj
@@ -1508,6 +1480,54 @@ Discarded input sections
  .debug_frame   0x00000000       0xa0 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_wwdg.c.obj
  .ARM.attributes
                 0x00000000       0x2d CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_wwdg.c.obj
+ .text          0x00000000      0x198 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1\libgcc.a(_arm_mulsf3.o)
+ .data          0x00000000        0x0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1\libgcc.a(_arm_mulsf3.o)
+ .bss           0x00000000        0x0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1\libgcc.a(_arm_mulsf3.o)
+ .debug_line_str
+                0x00000000       0xbe C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1\libgcc.a(_arm_mulsf3.o)
+ .debug_frame   0x00000000       0x24 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1\libgcc.a(_arm_mulsf3.o)
+ .ARM.attributes
+                0x00000000       0x1c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1\libgcc.a(_arm_mulsf3.o)
+ .text          0x00000000       0xa0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1\libgcc.a(_arm_truncdfsf2.o)
+ .data          0x00000000        0x0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1\libgcc.a(_arm_truncdfsf2.o)
+ .bss           0x00000000        0x0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1\libgcc.a(_arm_truncdfsf2.o)
+ .debug_line_str
+                0x00000000       0xbe C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1\libgcc.a(_arm_truncdfsf2.o)
+ .debug_frame   0x00000000       0x24 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1\libgcc.a(_arm_truncdfsf2.o)
+ .ARM.attributes
+                0x00000000       0x1c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1\libgcc.a(_arm_truncdfsf2.o)
+ .text          0x00000000      0x2ac C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1\libgcc.a(_arm_addsubsf3.o)
+ .data          0x00000000        0x0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1\libgcc.a(_arm_addsubsf3.o)
+ .bss           0x00000000        0x0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1\libgcc.a(_arm_addsubsf3.o)
+ .debug_line_str
+                0x00000000       0xbe C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1\libgcc.a(_arm_addsubsf3.o)
+ .debug_frame   0x00000000       0x4c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1\libgcc.a(_arm_addsubsf3.o)
+ .ARM.attributes
+                0x00000000       0x1c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1\libgcc.a(_arm_addsubsf3.o)
+ .text          0x00000000      0x114 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1\libgcc.a(_arm_cmpsf2.o)
+ .data          0x00000000        0x0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1\libgcc.a(_arm_cmpsf2.o)
+ .bss           0x00000000        0x0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1\libgcc.a(_arm_cmpsf2.o)
+ .debug_line_str
+                0x00000000       0xbe C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1\libgcc.a(_arm_cmpsf2.o)
+ .debug_frame   0x00000000       0xc8 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1\libgcc.a(_arm_cmpsf2.o)
+ .ARM.attributes
+                0x00000000       0x1c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1\libgcc.a(_arm_cmpsf2.o)
+ .text          0x00000000       0x5c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1\libgcc.a(_arm_fixsfsi.o)
+ .data          0x00000000        0x0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1\libgcc.a(_arm_fixsfsi.o)
+ .bss           0x00000000        0x0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1\libgcc.a(_arm_fixsfsi.o)
+ .debug_line_str
+                0x00000000       0xbe C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1\libgcc.a(_arm_fixsfsi.o)
+ .debug_frame   0x00000000       0x24 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1\libgcc.a(_arm_fixsfsi.o)
+ .ARM.attributes
+                0x00000000       0x1c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1\libgcc.a(_arm_fixsfsi.o)
+ .text          0x00000000       0x54 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1\libgcc.a(_arm_fixunssfsi.o)
+ .data          0x00000000        0x0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1\libgcc.a(_arm_fixunssfsi.o)
+ .bss           0x00000000        0x0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1\libgcc.a(_arm_fixunssfsi.o)
+ .debug_line_str
+                0x00000000       0xbe C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1\libgcc.a(_arm_fixunssfsi.o)
+ .debug_frame   0x00000000       0x24 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1\libgcc.a(_arm_fixunssfsi.o)
+ .ARM.attributes
+                0x00000000       0x1c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1\libgcc.a(_arm_fixunssfsi.o)
  .text          0x00000000        0x0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib\libg.a(libc_a-exit.o)
  .data          0x00000000        0x0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib\libg.a(libc_a-exit.o)
  .bss           0x00000000        0x0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib\libg.a(libc_a-exit.o)
@@ -1804,6 +1824,7 @@ LOAD CMakeFiles/Project-core.elf.dir/core/startup/startup_stm32f10x_md.s.obj
 LOAD CMakeFiles/Project-core.elf.dir/drivers/system/usart/usart.c.obj
 LOAD CMakeFiles/Project-core.elf.dir/drivers/system/delay/delay.c.obj
 LOAD CMakeFiles/Project-core.elf.dir/drivers/system/sys/sys.c.obj
+LOAD CMakeFiles/Project-core.elf.dir/drivers/system/miniprintf/mini_printf.c.obj
 LOAD CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/lcd.c.obj
 LOAD CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/led.c.obj
 LOAD CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/spi_hw.c.obj
@@ -1848,7 +1869,7 @@ LOAD C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib
                 0x08000000                g_pfnVectors
                 0x0800010c                        . = ALIGN (0x4)
 
-.text           0x0800010c      0x53c
+.text           0x0800010c      0xd08
                 0x0800010c                        . = ALIGN (0x4)
  *(.text)
  *(.text*)
@@ -1860,196 +1881,273 @@ LOAD C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib
                 0x08000170       0x44 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/crtbegin.o
  .text.frame_dummy
                 0x080001b4       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/crtbegin.o
- .text.main     0x080001e8       0x24 CMakeFiles/Project-core.elf.dir/core/src/main.c.obj
+ .text.main     0x080001e8       0x5c CMakeFiles/Project-core.elf.dir/core/src/main.c.obj
                 0x080001e8                main
  .text.SetSysClockTo72
-                0x0800020c       0xc4 CMakeFiles/Project-core.elf.dir/core/src/system_stm32f10x.c.obj
+                0x08000244       0xc4 CMakeFiles/Project-core.elf.dir/core/src/system_stm32f10x.c.obj
  .text.SetSysClock
-                0x080002d0        0x8 CMakeFiles/Project-core.elf.dir/core/src/system_stm32f10x.c.obj
+                0x08000308        0x8 CMakeFiles/Project-core.elf.dir/core/src/system_stm32f10x.c.obj
  .text.SystemInit
-                0x080002d8       0x50 CMakeFiles/Project-core.elf.dir/core/src/system_stm32f10x.c.obj
-                0x080002d8                SystemInit
+                0x08000310       0x50 CMakeFiles/Project-core.elf.dir/core/src/system_stm32f10x.c.obj
+                0x08000310                SystemInit
  .text.NMI_Handler
-                0x08000328        0x2 CMakeFiles/Project-core.elf.dir/core/src/stm32f10x_it.c.obj
-                0x08000328                NMI_Handler
+                0x08000360        0x2 CMakeFiles/Project-core.elf.dir/core/src/stm32f10x_it.c.obj
+                0x08000360                NMI_Handler
  .text.HardFault_Handler
-                0x0800032a        0x2 CMakeFiles/Project-core.elf.dir/core/src/stm32f10x_it.c.obj
-                0x0800032a                HardFault_Handler
+                0x08000362        0x2 CMakeFiles/Project-core.elf.dir/core/src/stm32f10x_it.c.obj
+                0x08000362                HardFault_Handler
  .text.MemManage_Handler
-                0x0800032c        0x2 CMakeFiles/Project-core.elf.dir/core/src/stm32f10x_it.c.obj
-                0x0800032c                MemManage_Handler
+                0x08000364        0x2 CMakeFiles/Project-core.elf.dir/core/src/stm32f10x_it.c.obj
+                0x08000364                MemManage_Handler
  .text.BusFault_Handler
-                0x0800032e        0x2 CMakeFiles/Project-core.elf.dir/core/src/stm32f10x_it.c.obj
-                0x0800032e                BusFault_Handler
+                0x08000366        0x2 CMakeFiles/Project-core.elf.dir/core/src/stm32f10x_it.c.obj
+                0x08000366                BusFault_Handler
  .text.UsageFault_Handler
-                0x08000330        0x2 CMakeFiles/Project-core.elf.dir/core/src/stm32f10x_it.c.obj
-                0x08000330                UsageFault_Handler
+                0x08000368        0x2 CMakeFiles/Project-core.elf.dir/core/src/stm32f10x_it.c.obj
+                0x08000368                UsageFault_Handler
  .text.SVC_Handler
-                0x08000332        0x2 CMakeFiles/Project-core.elf.dir/core/src/stm32f10x_it.c.obj
-                0x08000332                SVC_Handler
+                0x0800036a        0x2 CMakeFiles/Project-core.elf.dir/core/src/stm32f10x_it.c.obj
+                0x0800036a                SVC_Handler
  .text.DebugMon_Handler
-                0x08000334        0x2 CMakeFiles/Project-core.elf.dir/core/src/stm32f10x_it.c.obj
-                0x08000334                DebugMon_Handler
+                0x0800036c        0x2 CMakeFiles/Project-core.elf.dir/core/src/stm32f10x_it.c.obj
+                0x0800036c                DebugMon_Handler
  .text.PendSV_Handler
-                0x08000336        0x2 CMakeFiles/Project-core.elf.dir/core/src/stm32f10x_it.c.obj
-                0x08000336                PendSV_Handler
+                0x0800036e        0x2 CMakeFiles/Project-core.elf.dir/core/src/stm32f10x_it.c.obj
+                0x0800036e                PendSV_Handler
  .text.SysTick_Handler
-                0x08000338        0x2 CMakeFiles/Project-core.elf.dir/core/src/stm32f10x_it.c.obj
-                0x08000338                SysTick_Handler
- *fill*         0x0800033a        0x2 
+                0x08000370        0x2 CMakeFiles/Project-core.elf.dir/core/src/stm32f10x_it.c.obj
+                0x08000370                SysTick_Handler
+ *fill*         0x08000372        0x2 
  .text.Reset_Handler
-                0x0800033c       0x44 CMakeFiles/Project-core.elf.dir/core/startup/startup_stm32f10x_md.s.obj
-                0x0800033c                Reset_Handler
+                0x08000374       0x44 CMakeFiles/Project-core.elf.dir/core/startup/startup_stm32f10x_md.s.obj
+                0x08000374                Reset_Handler
  .text.Default_Handler
-                0x08000380        0x2 CMakeFiles/Project-core.elf.dir/core/startup/startup_stm32f10x_md.s.obj
-                0x08000380                EXTI2_IRQHandler
-                0x08000380                TIM1_CC_IRQHandler
-                0x08000380                PVD_IRQHandler
-                0x08000380                EXTI3_IRQHandler
-                0x08000380                EXTI0_IRQHandler
-                0x08000380                I2C2_EV_IRQHandler
-                0x08000380                ADC1_2_IRQHandler
-                0x08000380                SPI1_IRQHandler
-                0x08000380                TAMPER_IRQHandler
-                0x08000380                DMA1_Channel4_IRQHandler
-                0x08000380                USART3_IRQHandler
-                0x08000380                RTC_IRQHandler
-                0x08000380                DMA1_Channel7_IRQHandler
-                0x08000380                CAN1_RX1_IRQHandler
-                0x08000380                TIM4_IRQHandler
-                0x08000380                I2C1_EV_IRQHandler
-                0x08000380                DMA1_Channel6_IRQHandler
-                0x08000380                TIM3_IRQHandler
-                0x08000380                RCC_IRQHandler
-                0x08000380                TIM1_TRG_COM_IRQHandler
-                0x08000380                DMA1_Channel1_IRQHandler
-                0x08000380                Default_Handler
-                0x08000380                EXTI15_10_IRQHandler
-                0x08000380                EXTI9_5_IRQHandler
-                0x08000380                SPI2_IRQHandler
-                0x08000380                DMA1_Channel5_IRQHandler
-                0x08000380                EXTI4_IRQHandler
-                0x08000380                USB_LP_CAN1_RX0_IRQHandler
-                0x08000380                USB_HP_CAN1_TX_IRQHandler
-                0x08000380                DMA1_Channel3_IRQHandler
-                0x08000380                TIM1_UP_IRQHandler
-                0x08000380                WWDG_IRQHandler
-                0x08000380                TIM2_IRQHandler
-                0x08000380                TIM1_BRK_IRQHandler
-                0x08000380                EXTI1_IRQHandler
-                0x08000380                RTCAlarm_IRQHandler
-                0x08000380                USART2_IRQHandler
-                0x08000380                I2C2_ER_IRQHandler
-                0x08000380                DMA1_Channel2_IRQHandler
-                0x08000380                CAN1_SCE_IRQHandler
-                0x08000380                FLASH_IRQHandler
-                0x08000380                USART1_IRQHandler
-                0x08000380                I2C1_ER_IRQHandler
-                0x08000380                USBWakeUp_IRQHandler
- *fill*         0x08000382        0x2 
+                0x080003b8        0x2 CMakeFiles/Project-core.elf.dir/core/startup/startup_stm32f10x_md.s.obj
+                0x080003b8                EXTI2_IRQHandler
+                0x080003b8                TIM1_CC_IRQHandler
+                0x080003b8                PVD_IRQHandler
+                0x080003b8                EXTI3_IRQHandler
+                0x080003b8                EXTI0_IRQHandler
+                0x080003b8                I2C2_EV_IRQHandler
+                0x080003b8                ADC1_2_IRQHandler
+                0x080003b8                SPI1_IRQHandler
+                0x080003b8                TAMPER_IRQHandler
+                0x080003b8                DMA1_Channel4_IRQHandler
+                0x080003b8                USART3_IRQHandler
+                0x080003b8                RTC_IRQHandler
+                0x080003b8                DMA1_Channel7_IRQHandler
+                0x080003b8                CAN1_RX1_IRQHandler
+                0x080003b8                TIM4_IRQHandler
+                0x080003b8                I2C1_EV_IRQHandler
+                0x080003b8                DMA1_Channel6_IRQHandler
+                0x080003b8                TIM3_IRQHandler
+                0x080003b8                RCC_IRQHandler
+                0x080003b8                TIM1_TRG_COM_IRQHandler
+                0x080003b8                DMA1_Channel1_IRQHandler
+                0x080003b8                Default_Handler
+                0x080003b8                EXTI15_10_IRQHandler
+                0x080003b8                EXTI9_5_IRQHandler
+                0x080003b8                SPI2_IRQHandler
+                0x080003b8                DMA1_Channel5_IRQHandler
+                0x080003b8                EXTI4_IRQHandler
+                0x080003b8                USB_LP_CAN1_RX0_IRQHandler
+                0x080003b8                USB_HP_CAN1_TX_IRQHandler
+                0x080003b8                DMA1_Channel3_IRQHandler
+                0x080003b8                TIM1_UP_IRQHandler
+                0x080003b8                WWDG_IRQHandler
+                0x080003b8                TIM2_IRQHandler
+                0x080003b8                TIM1_BRK_IRQHandler
+                0x080003b8                EXTI1_IRQHandler
+                0x080003b8                RTCAlarm_IRQHandler
+                0x080003b8                USART2_IRQHandler
+                0x080003b8                I2C2_ER_IRQHandler
+                0x080003b8                DMA1_Channel2_IRQHandler
+                0x080003b8                CAN1_SCE_IRQHandler
+                0x080003b8                FLASH_IRQHandler
+                0x080003b8                USART1_IRQHandler
+                0x080003b8                I2C1_ER_IRQHandler
+                0x080003b8                USBWakeUp_IRQHandler
+ *fill*         0x080003ba        0x2 
+ .text.USART1_Config
+                0x080003bc       0x80 CMakeFiles/Project-core.elf.dir/drivers/system/usart/usart.c.obj
+                0x080003bc                USART1_Config
+ .text.delay_init
+                0x0800043c       0x2c CMakeFiles/Project-core.elf.dir/drivers/system/delay/delay.c.obj
+                0x0800043c                delay_init
+ .text.delay_ms
+                0x08000468       0x34 CMakeFiles/Project-core.elf.dir/drivers/system/delay/delay.c.obj
+                0x08000468                delay_ms
+ .text.LCD_GPIO_Init
+                0x0800049c       0x38 CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/lcd.c.obj
+                0x0800049c                LCD_GPIO_Init
+ .text.LCD_Writ_Bus
+                0x080004d4       0x54 CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/lcd.c.obj
+                0x080004d4                LCD_Writ_Bus
+ .text.LCD_WR_DATA8
+                0x08000528        0x8 CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/lcd.c.obj
+                0x08000528                LCD_WR_DATA8
+ .text.LCD_WR_DATA
+                0x08000530       0x12 CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/lcd.c.obj
+                0x08000530                LCD_WR_DATA
+ *fill*         0x08000542        0x2 
+ .text.LCD_WR_REG
+                0x08000544       0x24 CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/lcd.c.obj
+                0x08000544                LCD_WR_REG
+ .text.LCD_Address_Set
+                0x08000568       0x3e CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/lcd.c.obj
+                0x08000568                LCD_Address_Set
+ *fill*         0x080005a6        0x2 
+ .text.LCD_Init
+                0x080005a8      0x1fc CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/lcd.c.obj
+                0x080005a8                LCD_Init
+ .text.LCD_Fill
+                0x080007a4       0x3c CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/lcd.c.obj
+                0x080007a4                LCD_Fill
+ .text.LCD_DrawPoint
+                0x080007e0       0x14 CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/lcd.c.obj
+                0x080007e0                LCD_DrawPoint
+ .text.LCD_ShowChar
+                0x080007f4      0x160 CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/lcd.c.obj
+                0x080007f4                LCD_ShowChar
+ .text.LCD_ShowString
+                0x08000954       0x44 CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/lcd.c.obj
+                0x08000954                LCD_ShowString
  .text.LED_Init
-                0x08000384       0x3c CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/led.c.obj
-                0x08000384                LED_Init
+                0x08000998       0x3c CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/led.c.obj
+                0x08000998                LED_Init
  .text.LED_Toggle
-                0x080003c0       0x24 CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/led.c.obj
-                0x080003c0                LED_Toggle
+                0x080009d4       0x24 CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/led.c.obj
+                0x080009d4                LED_Toggle
+ .text.SysTick_CLKSourceConfig
+                0x080009f8       0x20 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/misc.c.obj
+                0x080009f8                SysTick_CLKSourceConfig
  .text.GPIO_Init
-                0x080003e4       0xb0 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_gpio.c.obj
-                0x080003e4                GPIO_Init
+                0x08000a18       0xb0 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_gpio.c.obj
+                0x08000a18                GPIO_Init
  .text.GPIO_ReadOutputDataBit
-                0x08000494        0xe CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_gpio.c.obj
-                0x08000494                GPIO_ReadOutputDataBit
+                0x08000ac8        0xe CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_gpio.c.obj
+                0x08000ac8                GPIO_ReadOutputDataBit
+ .text.GPIO_SetBits
+                0x08000ad6        0x4 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_gpio.c.obj
+                0x08000ad6                GPIO_SetBits
  .text.GPIO_ResetBits
-                0x080004a2        0x4 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_gpio.c.obj
-                0x080004a2                GPIO_ResetBits
+                0x08000ada        0x4 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_gpio.c.obj
+                0x08000ada                GPIO_ResetBits
  .text.GPIO_WriteBit
-                0x080004a6        0xa CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_gpio.c.obj
-                0x080004a6                GPIO_WriteBit
+                0x08000ade        0xa CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_gpio.c.obj
+                0x08000ade                GPIO_WriteBit
+ .text.RCC_GetClocksFreq
+                0x08000ae8       0xb4 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_rcc.c.obj
+                0x08000ae8                RCC_GetClocksFreq
  .text.RCC_APB2PeriphClockCmd
-                0x080004b0       0x1c CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_rcc.c.obj
-                0x080004b0                RCC_APB2PeriphClockCmd
+                0x08000b9c       0x1c CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_rcc.c.obj
+                0x08000b9c                RCC_APB2PeriphClockCmd
+ .text.USART_Init
+                0x08000bb8       0xc4 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_usart.c.obj
+                0x08000bb8                USART_Init
+ .text.USART_Cmd
+                0x08000c7c       0x1c CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_usart.c.obj
+                0x08000c7c                USART_Cmd
  .text.__retarget_lock_acquire_recursive
-                0x080004cc        0x4 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib\libg.a(libc_a-lock.o)
-                0x080004cc                __retarget_lock_acquire_recursive
+                0x08000c98        0x4 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib\libg.a(libc_a-lock.o)
+                0x08000c98                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x080004d0        0x4 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib\libg.a(libc_a-lock.o)
-                0x080004d0                __retarget_lock_release_recursive
+                0x08000c9c        0x4 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib\libg.a(libc_a-lock.o)
+                0x08000c9c                __retarget_lock_release_recursive
  .text.startup.register_fini
-                0x080004d4       0x28 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib\libg.a(libc_a-__call_atexit.o)
- .text.atexit   0x080004fc       0x20 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib\libg.a(libc_a-atexit.o)
-                0x080004fc                atexit
+                0x08000ca0       0x28 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib\libg.a(libc_a-__call_atexit.o)
+ .text.atexit   0x08000cc8       0x20 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib\libg.a(libc_a-atexit.o)
+                0x08000cc8                atexit
  .text.__libc_fini_array
-                0x0800051c       0x44 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib\libg.a(libc_a-fini.o)
-                0x0800051c                __libc_fini_array
+                0x08000ce8       0x44 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib\libg.a(libc_a-fini.o)
+                0x08000ce8                __libc_fini_array
  .text.__register_exitproc
-                0x08000560       0xb8 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib\libg.a(libc_a-__atexit.o)
-                0x08000560                __register_exitproc
+                0x08000d2c       0xb8 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib\libg.a(libc_a-__atexit.o)
+                0x08000d2c                __register_exitproc
  *(.glue_7)
- .glue_7        0x08000618        0x0 linker stubs
+ .glue_7        0x08000de4        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x08000618        0x0 linker stubs
+ .glue_7t       0x08000de4        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x08000618        0x0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/crtbegin.o
+ .eh_frame      0x08000de4        0x0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/crtbegin.o
  *(.init)
- .init          0x08000618        0xc C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/crti.o
-                0x08000618                _init
- .init          0x08000624        0xc C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/crtn.o
+ .init          0x08000de4        0xc C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/crti.o
+                0x08000de4                _init
+ .init          0x08000df0        0xc C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/crtn.o
  *(.fini)
- .fini          0x08000630        0xc C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/crti.o
-                0x08000630                _fini
- .fini          0x0800063c        0xc C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/crtn.o
-                0x08000648                        . = ALIGN (0x4)
-                0x08000648                        _etext = .
+ .fini          0x08000dfc        0xc C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/crti.o
+                0x08000dfc                _fini
+ .fini          0x08000e08        0xc C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/crtn.o
+                0x08000e14                        . = ALIGN (0x4)
+                0x08000e14                        _etext = .
 
-.vfp11_veneer   0x08000648        0x0
- .vfp11_veneer  0x08000648        0x0 linker stubs
+.vfp11_veneer   0x08000e14        0x0
+ .vfp11_veneer  0x08000e14        0x0 linker stubs
 
-.v4_bx          0x08000648        0x0
- .v4_bx         0x08000648        0x0 linker stubs
+.v4_bx          0x08000e14        0x0
+ .v4_bx         0x08000e14        0x0 linker stubs
 
-.iplt           0x08000648        0x0
- .iplt          0x08000648        0x0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/crtbegin.o
+.iplt           0x08000e14        0x0
+ .iplt          0x08000e14        0x0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/crtbegin.o
 
-.rel.dyn        0x08000648        0x0
- .rel.iplt      0x08000648        0x0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/crtbegin.o
-
-.rodata         0x08000648        0x0
-                0x08000648                        . = ALIGN (0x4)
+.rodata         0x08000e14     0x3414
+                0x08000e14                        . = ALIGN (0x4)
  *(.rodata)
  *(.rodata*)
-                0x08000648                        . = ALIGN (0x4)
+ .rodata.main.str1.4
+                0x08000e14        0xc CMakeFiles/Project-core.elf.dir/core/src/main.c.obj
+ .rodata.ascii_3216
+                0x08000e20     0x17c0 CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/lcd.c.obj
+                0x08000e20                ascii_3216
+ .rodata.ascii_2412
+                0x080025e0     0x11d0 CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/lcd.c.obj
+                0x080025e0                ascii_2412
+ .rodata.ascii_1608
+                0x080037b0      0x5f0 CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/lcd.c.obj
+                0x080037b0                ascii_1608
+ .rodata.ascii_1206
+                0x08003da0      0x474 CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/lcd.c.obj
+                0x08003da0                ascii_1206
+ .rodata.ADCPrescTable
+                0x08004214        0x4 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_rcc.c.obj
+ .rodata.APBAHBPrescTable
+                0x08004218       0x10 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_rcc.c.obj
+                0x08004228                        . = ALIGN (0x4)
+
+.rel.dyn        0x08004228        0x0
+ .rel.iplt      0x08004228        0x0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM            0x08000648        0x0
-                0x08000648                        __exidx_start = .
+.ARM            0x08004228        0x0
+                0x08004228                        __exidx_start = .
  *(.ARM.exidx*)
-                0x08000648                        __exidx_end = .
+                0x08004228                        __exidx_end = .
 
-.preinit_array  0x08000648        0x0
-                0x08000648                        PROVIDE (__preinit_array_start = .)
+.preinit_array  0x08004228        0x0
+                0x08004228                        PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x08000648                        PROVIDE (__preinit_array_end = .)
+                0x08004228                        PROVIDE (__preinit_array_end = .)
 
-.init_array     0x08000648        0x8
-                0x08000648                        PROVIDE (__init_array_start = .)
+.init_array     0x08004228        0x8
+                0x08004228                        PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  .init_array.00000
-                0x08000648        0x4 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib\libg.a(libc_a-__call_atexit.o)
+                0x08004228        0x4 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib\libg.a(libc_a-__call_atexit.o)
  *(.init_array*)
- .init_array    0x0800064c        0x4 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/crtbegin.o
-                0x08000650                        PROVIDE (__init_array_end = .)
+ .init_array    0x0800422c        0x4 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/crtbegin.o
+                0x08004230                        PROVIDE (__init_array_end = .)
 
-.fini_array     0x08000650        0x4
-                0x08000650                        PROVIDE (__fini_array_start = .)
+.fini_array     0x08004230        0x4
+                0x08004230                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x08000650        0x4 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/crtbegin.o
-                0x08000654                        PROVIDE (__fini_array_end = .)
-                0x08000654                        _sidata = LOADADDR (.data)
+ .fini_array    0x08004230        0x4 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/crtbegin.o
+                0x08004234                        PROVIDE (__fini_array_end = .)
+                0x08004234                        _sidata = LOADADDR (.data)
 
-.data           0x20000000        0x4 load address 0x08000654
+.data           0x20000000        0x4 load address 0x08004234
                 0x20000000                        . = ALIGN (0x4)
                 0x20000000                        _sdata = .
  *(.data)
@@ -2061,16 +2159,16 @@ LOAD C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib
                 0x20000004                        _edata = .
 
 .tm_clone_table
-                0x20000004        0x0 load address 0x08000658
+                0x20000004        0x0 load address 0x08004238
  .tm_clone_table
                 0x20000004        0x0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/crtbegin.o
  .tm_clone_table
                 0x20000004        0x0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/crtend.o
 
-.igot.plt       0x20000004        0x0 load address 0x08000658
+.igot.plt       0x20000004        0x0 load address 0x08004238
  .igot.plt      0x20000004        0x0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/crtbegin.o
 
-.bss            0x20000004      0x1b4 load address 0x08000658
+.bss            0x20000004      0x1b8 load address 0x08004238
                 0x20000004                        . = ALIGN (0x4)
                 0x20000004                        _sbss = .
                 0x20000004                        __bss_start__ = _sbss
@@ -2080,30 +2178,33 @@ LOAD C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib
                 0x20000004        0x1 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/crtbegin.o
  *fill*         0x20000005        0x3 
  .bss.object.0  0x20000008       0x18 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/crtbegin.o
+ .bss.fac_ms    0x20000020        0x2 CMakeFiles/Project-core.elf.dir/drivers/system/delay/delay.c.obj
+ .bss.fac_us    0x20000022        0x1 CMakeFiles/Project-core.elf.dir/drivers/system/delay/delay.c.obj
+ *fill*         0x20000023        0x1 
  .bss.__lock___atexit_recursive_mutex
-                0x20000020        0x1 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib\libg.a(libc_a-lock.o)
-                0x20000020                __lock___atexit_recursive_mutex
- *fill*         0x20000021        0x3 
- .bss.__atexit  0x20000024        0x4 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib\libg.a(libc_a-__call_atexit.o)
-                0x20000024                __atexit
+                0x20000024        0x1 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib\libg.a(libc_a-lock.o)
+                0x20000024                __lock___atexit_recursive_mutex
+ *fill*         0x20000025        0x3 
+ .bss.__atexit  0x20000028        0x4 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib\libg.a(libc_a-__call_atexit.o)
+                0x20000028                __atexit
  .bss.__atexit0
-                0x20000028      0x190 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib\libg.a(libc_a-__atexit.o)
-                0x20000028                __atexit0
+                0x2000002c      0x190 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib\libg.a(libc_a-__atexit.o)
+                0x2000002c                __atexit0
  *(COMMON)
-                0x200001b8                        . = ALIGN (0x4)
-                0x200001b8                        _ebss = .
-                0x200001b8                        __bss_end__ = _ebss
+                0x200001bc                        . = ALIGN (0x4)
+                0x200001bc                        _ebss = .
+                0x200001bc                        __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x200001b8      0x600 load address 0x08000658
-                0x200001b8                        . = ALIGN (0x4)
+                0x200001bc      0x600 load address 0x08004238
+                0x200001bc                        . = ALIGN (0x4)
                 [!provide]                        PROVIDE (end = .)
                 [!provide]                        PROVIDE (_end = .)
-                0x200003b8                        . = (. + _Min_Heap_Size)
- *fill*         0x200001b8      0x200 
-                0x200007b8                        . = (. + _Min_Stack_Size)
- *fill*         0x200003b8      0x400 
-                0x200007b8                        . = ALIGN (0x4)
+                0x200003bc                        . = (. + _Min_Heap_Size)
+ *fill*         0x200001bc      0x200 
+                0x200007bc                        . = (. + _Min_Stack_Size)
+ *fill*         0x200003bc      0x400 
+                0x200007bc                        . = ALIGN (0x4)
 
 /DISCARD/
  libc.a(*)
@@ -2126,50 +2227,70 @@ LOAD C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib
  .ARM.attributes
                 0x000000cd       0x21 CMakeFiles/Project-core.elf.dir/core/startup/startup_stm32f10x_md.s.obj
  .ARM.attributes
-                0x000000ee       0x2d CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/led.c.obj
+                0x000000ee       0x2d CMakeFiles/Project-core.elf.dir/drivers/system/usart/usart.c.obj
  .ARM.attributes
-                0x0000011b       0x2d CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_gpio.c.obj
+                0x0000011b       0x2d CMakeFiles/Project-core.elf.dir/drivers/system/delay/delay.c.obj
  .ARM.attributes
-                0x00000148       0x2d CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_rcc.c.obj
+                0x00000148       0x2d CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/lcd.c.obj
  .ARM.attributes
-                0x00000175       0x2a C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib\libg.a(libc_a-lock.o)
+                0x00000175       0x2d CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/led.c.obj
  .ARM.attributes
-                0x0000019f       0x2a C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib\libg.a(libc_a-__call_atexit.o)
+                0x000001a2       0x2d CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/misc.c.obj
  .ARM.attributes
-                0x000001c9       0x2a C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib\libg.a(libc_a-atexit.o)
+                0x000001cf       0x2d CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_gpio.c.obj
  .ARM.attributes
-                0x000001f3       0x2a C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib\libg.a(libc_a-fini.o)
+                0x000001fc       0x2d CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_rcc.c.obj
  .ARM.attributes
-                0x0000021d       0x2a C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib\libg.a(libc_a-__atexit.o)
+                0x00000229       0x2d CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_usart.c.obj
  .ARM.attributes
-                0x00000247       0x2a C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/crtend.o
+                0x00000256       0x2a C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib\libg.a(libc_a-lock.o)
  .ARM.attributes
-                0x00000271       0x1c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/crtn.o
+                0x00000280       0x2a C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib\libg.a(libc_a-__call_atexit.o)
+ .ARM.attributes
+                0x000002aa       0x2a C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib\libg.a(libc_a-atexit.o)
+ .ARM.attributes
+                0x000002d4       0x2a C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib\libg.a(libc_a-fini.o)
+ .ARM.attributes
+                0x000002fe       0x2a C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib\libg.a(libc_a-__atexit.o)
+ .ARM.attributes
+                0x00000328       0x2a C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/crtend.o
+ .ARM.attributes
+                0x00000352       0x1c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/crtn.o
 OUTPUT(Project-core.elf elf32-littlearm)
 LOAD linker stubs
 LOAD C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib\libc.a
 LOAD C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib\libm.a
 LOAD C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1\libgcc.a
 
-.debug_info     0x00000000     0x1bc2
- .debug_info    0x00000000       0xc2 CMakeFiles/Project-core.elf.dir/core/src/main.c.obj
- .debug_info    0x000000c2      0x439 CMakeFiles/Project-core.elf.dir/core/src/system_stm32f10x.c.obj
- .debug_info    0x000004fb       0xfd CMakeFiles/Project-core.elf.dir/core/src/stm32f10x_it.c.obj
- .debug_info    0x000005f8       0x30 CMakeFiles/Project-core.elf.dir/core/startup/startup_stm32f10x_md.s.obj
- .debug_info    0x00000628      0x420 CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/led.c.obj
- .debug_info    0x00000a48      0x8be CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_gpio.c.obj
- .debug_info    0x00001306      0x8bc CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_rcc.c.obj
+.debug_info     0x00000000     0x5e60
+ .debug_info    0x00000000      0x24b CMakeFiles/Project-core.elf.dir/core/src/main.c.obj
+ .debug_info    0x0000024b      0x439 CMakeFiles/Project-core.elf.dir/core/src/system_stm32f10x.c.obj
+ .debug_info    0x00000684       0xfd CMakeFiles/Project-core.elf.dir/core/src/stm32f10x_it.c.obj
+ .debug_info    0x00000781       0x30 CMakeFiles/Project-core.elf.dir/core/startup/startup_stm32f10x_md.s.obj
+ .debug_info    0x000007b1      0xb7a CMakeFiles/Project-core.elf.dir/drivers/system/usart/usart.c.obj
+ .debug_info    0x0000132b      0x207 CMakeFiles/Project-core.elf.dir/drivers/system/delay/delay.c.obj
+ .debug_info    0x00001532     0x231e CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/lcd.c.obj
+ .debug_info    0x00003850      0x420 CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/led.c.obj
+ .debug_info    0x00003c70      0x4f4 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/misc.c.obj
+ .debug_info    0x00004164      0x8be CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_gpio.c.obj
+ .debug_info    0x00004a22      0x8bc CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_rcc.c.obj
+ .debug_info    0x000052de      0xb82 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_usart.c.obj
 
-.debug_abbrev   0x00000000      0x8bb
- .debug_abbrev  0x00000000       0x86 CMakeFiles/Project-core.elf.dir/core/src/main.c.obj
- .debug_abbrev  0x00000086      0x1c7 CMakeFiles/Project-core.elf.dir/core/src/system_stm32f10x.c.obj
- .debug_abbrev  0x0000024d       0x45 CMakeFiles/Project-core.elf.dir/core/src/stm32f10x_it.c.obj
- .debug_abbrev  0x00000292       0x24 CMakeFiles/Project-core.elf.dir/core/startup/startup_stm32f10x_md.s.obj
- .debug_abbrev  0x000002b6      0x1a8 CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/led.c.obj
- .debug_abbrev  0x0000045e      0x250 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_gpio.c.obj
- .debug_abbrev  0x000006ae      0x20d CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_rcc.c.obj
+.debug_abbrev   0x00000000     0x1334
+ .debug_abbrev  0x00000000       0xcb CMakeFiles/Project-core.elf.dir/core/src/main.c.obj
+ .debug_abbrev  0x000000cb      0x1c7 CMakeFiles/Project-core.elf.dir/core/src/system_stm32f10x.c.obj
+ .debug_abbrev  0x00000292       0x45 CMakeFiles/Project-core.elf.dir/core/src/stm32f10x_it.c.obj
+ .debug_abbrev  0x000002d7       0x24 CMakeFiles/Project-core.elf.dir/core/startup/startup_stm32f10x_md.s.obj
+ .debug_abbrev  0x000002fb      0x25c CMakeFiles/Project-core.elf.dir/drivers/system/usart/usart.c.obj
+ .debug_abbrev  0x00000557      0x150 CMakeFiles/Project-core.elf.dir/drivers/system/delay/delay.c.obj
+ .debug_abbrev  0x000006a7      0x2db CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/lcd.c.obj
+ .debug_abbrev  0x00000982      0x1a8 CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/led.c.obj
+ .debug_abbrev  0x00000b2a      0x1a4 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/misc.c.obj
+ .debug_abbrev  0x00000cce      0x250 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_gpio.c.obj
+ .debug_abbrev  0x00000f1e      0x20d CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_rcc.c.obj
+ .debug_abbrev  0x0000112b      0x209 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_usart.c.obj
 
-.debug_aranges  0x00000000      0x2e0
+.debug_aranges  0x00000000      0x548
  .debug_aranges
                 0x00000000       0x20 CMakeFiles/Project-core.elf.dir/core/src/main.c.obj
  .debug_aranges
@@ -2179,14 +2300,24 @@ LOAD C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib
  .debug_aranges
                 0x000000b8       0x28 CMakeFiles/Project-core.elf.dir/core/startup/startup_stm32f10x_md.s.obj
  .debug_aranges
-                0x000000e0       0x40 CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/led.c.obj
+                0x000000e0       0x28 CMakeFiles/Project-core.elf.dir/drivers/system/usart/usart.c.obj
  .debug_aranges
-                0x00000120       0xa8 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_gpio.c.obj
+                0x00000108       0x30 CMakeFiles/Project-core.elf.dir/drivers/system/delay/delay.c.obj
  .debug_aranges
-                0x000001c8      0x118 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_rcc.c.obj
+                0x00000138       0xd0 CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/lcd.c.obj
+ .debug_aranges
+                0x00000208       0x40 CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/led.c.obj
+ .debug_aranges
+                0x00000248       0x40 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/misc.c.obj
+ .debug_aranges
+                0x00000288       0xa8 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_gpio.c.obj
+ .debug_aranges
+                0x00000330      0x118 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_rcc.c.obj
+ .debug_aranges
+                0x00000448      0x100 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_usart.c.obj
 
 .debug_rnglists
-                0x00000000      0x20a
+                0x00000000      0x3cd
  .debug_rnglists
                 0x00000000       0x13 CMakeFiles/Project-core.elf.dir/core/src/main.c.obj
  .debug_rnglists
@@ -2196,61 +2327,101 @@ LOAD C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib
  .debug_rnglists
                 0x0000007d       0x19 CMakeFiles/Project-core.elf.dir/core/startup/startup_stm32f10x_md.s.obj
  .debug_rnglists
-                0x00000096       0x2b CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/led.c.obj
+                0x00000096       0x1a CMakeFiles/Project-core.elf.dir/drivers/system/usart/usart.c.obj
  .debug_rnglists
-                0x000000c1       0x7b CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_gpio.c.obj
+                0x000000b0       0x1f CMakeFiles/Project-core.elf.dir/drivers/system/delay/delay.c.obj
  .debug_rnglists
-                0x0000013c       0xce CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_rcc.c.obj
+                0x000000cf       0xa2 CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/lcd.c.obj
+ .debug_rnglists
+                0x00000171       0x2b CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/led.c.obj
+ .debug_rnglists
+                0x0000019c       0x2b CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/misc.c.obj
+ .debug_rnglists
+                0x000001c7       0x7b CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_gpio.c.obj
+ .debug_rnglists
+                0x00000242       0xce CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_rcc.c.obj
+ .debug_rnglists
+                0x00000310       0xbd CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_usart.c.obj
 
-.debug_line     0x00000000     0x18e8
- .debug_line    0x00000000       0xaf CMakeFiles/Project-core.elf.dir/core/src/main.c.obj
- .debug_line    0x000000af      0x434 CMakeFiles/Project-core.elf.dir/core/src/system_stm32f10x.c.obj
- .debug_line    0x000004e3      0x112 CMakeFiles/Project-core.elf.dir/core/src/stm32f10x_it.c.obj
- .debug_line    0x000005f5       0x75 CMakeFiles/Project-core.elf.dir/core/startup/startup_stm32f10x_md.s.obj
- .debug_line    0x0000066a      0x2a1 CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/led.c.obj
- .debug_line    0x0000090b      0x6fa CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_gpio.c.obj
- .debug_line    0x00001005      0x8e3 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_rcc.c.obj
+.debug_line     0x00000000     0x3bbd
+ .debug_line    0x00000000      0x24f CMakeFiles/Project-core.elf.dir/core/src/main.c.obj
+ .debug_line    0x0000024f      0x434 CMakeFiles/Project-core.elf.dir/core/src/system_stm32f10x.c.obj
+ .debug_line    0x00000683      0x112 CMakeFiles/Project-core.elf.dir/core/src/stm32f10x_it.c.obj
+ .debug_line    0x00000795       0x75 CMakeFiles/Project-core.elf.dir/core/startup/startup_stm32f10x_md.s.obj
+ .debug_line    0x0000080a      0x386 CMakeFiles/Project-core.elf.dir/drivers/system/usart/usart.c.obj
+ .debug_line    0x00000b90      0x2bc CMakeFiles/Project-core.elf.dir/drivers/system/delay/delay.c.obj
+ .debug_line    0x00000e4c      0xe7c CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/lcd.c.obj
+ .debug_line    0x00001cc8      0x2a1 CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/led.c.obj
+ .debug_line    0x00001f69      0x328 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/misc.c.obj
+ .debug_line    0x00002291      0x6fa CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_gpio.c.obj
+ .debug_line    0x0000298b      0x8e3 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_rcc.c.obj
+ .debug_line    0x0000326e      0x94f CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_usart.c.obj
 
-.debug_str      0x00000000      0xc26
- .debug_str     0x00000000      0xc26 CMakeFiles/Project-core.elf.dir/core/src/main.c.obj
-                                0x19a (size before relaxing)
- .debug_str     0x00000c26      0x309 CMakeFiles/Project-core.elf.dir/core/src/system_stm32f10x.c.obj
- .debug_str     0x00000c26      0x219 CMakeFiles/Project-core.elf.dir/core/src/stm32f10x_it.c.obj
- .debug_str     0x00000c26       0x7e CMakeFiles/Project-core.elf.dir/core/startup/startup_stm32f10x_md.s.obj
- .debug_str     0x00000c26      0x3c7 CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/led.c.obj
- .debug_str     0x00000c26      0x56c CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_gpio.c.obj
- .debug_str     0x00000c26      0x656 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_rcc.c.obj
+.debug_str      0x00000000     0x18e3
+ .debug_str     0x00000000     0x18e3 CMakeFiles/Project-core.elf.dir/core/src/main.c.obj
+                                0x21f (size before relaxing)
+ .debug_str     0x000018e3      0x309 CMakeFiles/Project-core.elf.dir/core/src/system_stm32f10x.c.obj
+ .debug_str     0x000018e3      0x219 CMakeFiles/Project-core.elf.dir/core/src/stm32f10x_it.c.obj
+ .debug_str     0x000018e3       0x7e CMakeFiles/Project-core.elf.dir/core/startup/startup_stm32f10x_md.s.obj
+ .debug_str     0x000018e3      0x76f CMakeFiles/Project-core.elf.dir/drivers/system/usart/usart.c.obj
+ .debug_str     0x000018e3      0x234 CMakeFiles/Project-core.elf.dir/drivers/system/delay/delay.c.obj
+ .debug_str     0x000018e3      0x5f5 CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/lcd.c.obj
+ .debug_str     0x000018e3      0x3c7 CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/led.c.obj
+ .debug_str     0x000018e3      0x3f4 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/misc.c.obj
+ .debug_str     0x000018e3      0x56c CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_gpio.c.obj
+ .debug_str     0x000018e3      0x656 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_rcc.c.obj
+ .debug_str     0x000018e3      0x70c CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_usart.c.obj
 
 .comment        0x00000000       0x46
  .comment       0x00000000       0x46 CMakeFiles/Project-core.elf.dir/core/src/main.c.obj
                                  0x47 (size before relaxing)
  .comment       0x00000046       0x47 CMakeFiles/Project-core.elf.dir/core/src/system_stm32f10x.c.obj
  .comment       0x00000046       0x47 CMakeFiles/Project-core.elf.dir/core/src/stm32f10x_it.c.obj
+ .comment       0x00000046       0x47 CMakeFiles/Project-core.elf.dir/drivers/system/usart/usart.c.obj
+ .comment       0x00000046       0x47 CMakeFiles/Project-core.elf.dir/drivers/system/delay/delay.c.obj
+ .comment       0x00000046       0x47 CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/lcd.c.obj
  .comment       0x00000046       0x47 CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/led.c.obj
+ .comment       0x00000046       0x47 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/misc.c.obj
  .comment       0x00000046       0x47 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_gpio.c.obj
  .comment       0x00000046       0x47 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_rcc.c.obj
+ .comment       0x00000046       0x47 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_usart.c.obj
 
-.debug_frame    0x00000000      0x708
+.debug_frame    0x00000000      0xd48
  .debug_frame   0x00000000       0x28 CMakeFiles/Project-core.elf.dir/core/src/main.c.obj
  .debug_frame   0x00000028       0x6c CMakeFiles/Project-core.elf.dir/core/src/system_stm32f10x.c.obj
  .debug_frame   0x00000094       0xa0 CMakeFiles/Project-core.elf.dir/core/src/stm32f10x_it.c.obj
- .debug_frame   0x00000134       0x90 CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/led.c.obj
- .debug_frame   0x000001c4      0x168 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_gpio.c.obj
- .debug_frame   0x0000032c      0x228 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_rcc.c.obj
- .debug_frame   0x00000554       0xb0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib\libg.a(libc_a-lock.o)
- .debug_frame   0x00000604       0x68 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib\libg.a(libc_a-__call_atexit.o)
- .debug_frame   0x0000066c       0x2c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib\libg.a(libc_a-atexit.o)
- .debug_frame   0x00000698       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib\libg.a(libc_a-fini.o)
- .debug_frame   0x000006cc       0x3c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib\libg.a(libc_a-__atexit.o)
+ .debug_frame   0x00000134       0x48 CMakeFiles/Project-core.elf.dir/drivers/system/usart/usart.c.obj
+ .debug_frame   0x0000017c       0x48 CMakeFiles/Project-core.elf.dir/drivers/system/delay/delay.c.obj
+ .debug_frame   0x000001c4      0x34c CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/lcd.c.obj
+ .debug_frame   0x00000510       0x90 CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/led.c.obj
+ .debug_frame   0x000005a0       0x60 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/misc.c.obj
+ .debug_frame   0x00000600      0x168 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_gpio.c.obj
+ .debug_frame   0x00000768      0x228 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_rcc.c.obj
+ .debug_frame   0x00000990      0x204 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_usart.c.obj
+ .debug_frame   0x00000b94       0xb0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib\libg.a(libc_a-lock.o)
+ .debug_frame   0x00000c44       0x68 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib\libg.a(libc_a-__call_atexit.o)
+ .debug_frame   0x00000cac       0x2c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib\libg.a(libc_a-atexit.o)
+ .debug_frame   0x00000cd8       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib\libg.a(libc_a-fini.o)
+ .debug_frame   0x00000d0c       0x3c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib\libg.a(libc_a-__atexit.o)
 
 .debug_loclists
-                0x00000000      0x8ca
+                0x00000000     0x229f
  .debug_loclists
                 0x00000000       0xb7 CMakeFiles/Project-core.elf.dir/core/src/system_stm32f10x.c.obj
  .debug_loclists
-                0x000000b7      0x4d7 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_gpio.c.obj
+                0x000000b7       0x44 CMakeFiles/Project-core.elf.dir/drivers/system/usart/usart.c.obj
  .debug_loclists
-                0x0000058e      0x33c CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_rcc.c.obj
+                0x000000fb       0x80 CMakeFiles/Project-core.elf.dir/drivers/system/delay/delay.c.obj
+ .debug_loclists
+                0x0000017b     0x11c1 CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/lcd.c.obj
+ .debug_loclists
+                0x0000133c      0x123 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/misc.c.obj
+ .debug_loclists
+                0x0000145f      0x4d7 CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_gpio.c.obj
+ .debug_loclists
+                0x00001936      0x33c CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_rcc.c.obj
+ .debug_loclists
+                0x00001c72      0x62d CMakeFiles/Project-core.elf.dir/drivers/STM32F10x_FWLib/src/stm32f10x_usart.c.obj
 
 .debug_line_str
                 0x00000000       0x62

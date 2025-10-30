@@ -5,7 +5,7 @@
 ---
 
 ## 🧩 项目简介
-本项目基于 **CMake + ARM GNU Toolchain** 构建，使用硬件 SPI 驱动 1.8 寸 TFT LCD，用于气象仪数据展示。  
+本项目基于 **CMake + ARM GNU Toolchain** 构建，使用软件 SPI 驱动 1.8 寸 TFT LCD，用于气象仪数据展示。  
 主要外设包括：
 - DHT11 温湿度传感器  
 - DS18B20 温度探头  
@@ -78,3 +78,6 @@ MIT License © 2025
 <p style="color:#555; font-style:italic; margin-top:6px;">
   （友情提示：AI 很聪明，但并不懂得生活常识——请别把它当成终极 QA。）
 </p>
+
+## 版本
+-0.1

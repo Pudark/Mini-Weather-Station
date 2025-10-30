@@ -3,10 +3,10 @@
 
 void LED_Init(void)
 {
-	//¿ªÆôGPIOBÊ±ÖÓ
+	//å¼€å¯GPIOBæ—¶é’Ÿ
 	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOC, ENABLE);
 	
-	//ÅäÖÃLEDÒı½ÅÎªÄ£ÄâÊä³öÄ£Ê½
+	//é…ç½®LEDå¼•è„šä¸ºæ¨¡æ‹Ÿè¾“å‡ºæ¨¡å¼
 	GPIO_InitTypeDef GPIO_InitStructure;
 	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;
 	GPIO_InitStructure.GPIO_Pin = LED_GPIO_PIN;
@@ -17,7 +17,7 @@ void LED_Init(void)
 
 void LED_Toggle(void)
 {
-	GPIO_WriteBit(LED_GPIO_PROT, LED_GPIO_PIN, (BitAction)((1-GPIO_ReadOutputDataBit(LED_GPIO_PROT, LED_GPIO_PIN))));//ledµçÆ½·­×ª
+	GPIO_WriteBit(LED_GPIO_PROT, LED_GPIO_PIN, (BitAction)((1-GPIO_ReadOutputDataBit(LED_GPIO_PROT, LED_GPIO_PIN))));//ledç”µå¹³ç¿»è½¬
 }
 void LED_On()
 {
