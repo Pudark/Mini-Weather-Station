@@ -61,6 +61,12 @@
 },
 {
   "directory": "D:/Data/Design/Project-core/build",
+  "command": "arm-none-eabi-gcc -DSTM32F103xB -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -ID:/Data/Design/Project-core/core/inc -ID:/Data/Design/Project-core/drivers/STM32F10x_FWLib/inc -ID:/Data/Design/Project-core/drivers/system/delay -ID:/Data/Design/Project-core/drivers/system/sys -ID:/Data/Design/Project-core/drivers/system/usart -ID:/Data/Design/Project-core/drivers/system/miniprintf -ID:/Data/Design/Project-core/core/startup -ID:/Data/Design/Project-core/drivers/hardware -g -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -mfloat-abi=soft -Og -g -o CMakeFiles\\Project-core.elf.dir\\drivers\\HARDWARE\\ledf.c.obj -c D:\\Data\\Design\\Project-core\\drivers\\HARDWARE\\ledf.c",
+  "file": "D:/Data/Design/Project-core/drivers/HARDWARE/ledf.c",
+  "output": "D:/Data/Design/Project-core/build/CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/ledf.c.obj"
+},
+{
+  "directory": "D:/Data/Design/Project-core/build",
   "command": "arm-none-eabi-gcc -DSTM32F103xB -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -ID:/Data/Design/Project-core/core/inc -ID:/Data/Design/Project-core/drivers/STM32F10x_FWLib/inc -ID:/Data/Design/Project-core/drivers/system/delay -ID:/Data/Design/Project-core/drivers/system/sys -ID:/Data/Design/Project-core/drivers/system/usart -ID:/Data/Design/Project-core/drivers/system/miniprintf -ID:/Data/Design/Project-core/core/startup -ID:/Data/Design/Project-core/drivers/hardware -g -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -mfloat-abi=soft -Og -g -o CMakeFiles\\Project-core.elf.dir\\drivers\\HARDWARE\\spi_hw.c.obj -c D:\\Data\\Design\\Project-core\\drivers\\HARDWARE\\spi_hw.c",
   "file": "D:/Data/Design/Project-core/drivers/HARDWARE/spi_hw.c",
   "output": "D:/Data/Design/Project-core/build/CMakeFiles/Project-core.elf.dir/drivers/HARDWARE/spi_hw.c.obj"

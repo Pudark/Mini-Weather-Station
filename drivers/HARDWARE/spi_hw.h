@@ -1,3 +1,11 @@
+/**
+ * @file spi_hw.h
+ * @author Pudark
+ * @version 0.2
+ * @date 2025-11-1
+ * @brief 硬件spi
+ */
+
 #ifndef __SPI_HW_H
 #define __SPI_HW_H
 

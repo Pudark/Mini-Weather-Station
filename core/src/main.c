@@ -1,9 +1,9 @@
 /**
  * @file main.c
  * @author Pudark
- * @version 0.1
+ * @version 0.2
  * @date 2025.10.30
- * @brief 点亮LCD，做初步准备
+ * @brief 调试流水灯
  * @note MCU:STM32F103C8T6
  * @note 编译器:ARM-GCC
  * @note IDE:VSCode + CMake
@@ -15,6 +15,7 @@
 #include "lcd.h"
 #include "usart.h"
 #include "led.h"
+#include "ledf.h"
 #include "mini_printf.h"
 #include "delay.h"
 
@@ -31,9 +32,12 @@ int main(void)
     // 再初始化其他不冲突的外设
     LED_Init();
     USART1_Config();
+    LEDF_Init();
 
     // 添加启动延时，让外设稳定
     delay_ms(100);
+
+    LEDF_RunningLight(100,0);
 
     LCD_Fill(0,0,160,128,GREEN);
 

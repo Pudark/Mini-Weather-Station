@@ -203,7 +203,8 @@
 				30,
 				31,
 				32,
-				33
+				33,
+				34
 			]
 		},
 		{
@@ -382,7 +383,8 @@
 				30,
 				31,
 				32,
-				33
+				33,
+				34
 			]
 		},
 		{
@@ -453,6 +455,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "drivers/HARDWARE/led.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "drivers/HARDWARE/ledf.c",
 			"sourceGroupIndex" : 0
 		},
 		{

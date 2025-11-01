@@ -1,3 +1,13 @@
+/**
+ * @file spi_hw.c
+ * @author Pudark
+ * @version 0.2
+ * @date 2025-11-1
+ * @brief 硬件spi
+ */
+
+
+
 #include "spi_hw.h"
 
 void SPI1_HW_Init(void)
