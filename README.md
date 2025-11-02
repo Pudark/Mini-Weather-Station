@@ -10,25 +10,28 @@
 - DHT11 温湿度传感器  
 - DS18B20 温度探头  
 - HW611 气压传感器  
-- TLC555CP 模拟时基模块  
+- MD1101加TLC555CP测湿度
 - SPI LCD 显示屏（ST77xx / ILI9341）  
+- 按键
+- 有源蜂鸣器
+- 74HC595驱动流水灯
 
 ---
 
 ## 🏗️ 项目结构
 
-Project-core/
-├── core/ # 主程序、入口函数、启动文件
-│ ├── inc/
-│ └── src/
-├── drivers/ # 外设驱动与底层库
-│ ├── CMSIS/
-│ ├── STM32F10x_FWLib/
-│ ├── SYSTEM/ # 系统级服务：延时、串口、系统初始化
-│ └── HARDWARE/ # 硬件外设驱动：SPI、LCD、传感器等
-├── scripts/ # 构建脚本（可选）
-├── CMakeLists.txt # 项目构建配置
-└── README.md # 本说明文件
+- Project-core/
+- ├── core/ # 主程序、入口函数、启动文件
+- │ ├── inc/
+- │ └── src/
+- ├── drivers/ # 外设驱动与底层库
+- │ ├── CMSIS/
+- │ ├── STM32F10x_FWLib/
+- │ ├── SYSTEM/ # 系统级服务：延时、串口、系统初始化
+- │ └── HARDWARE/ # 硬件外设驱动：SPI、LCD、传感器等
+- ├── scripts/ # 构建脚本（可选）
+- ├── CMakeLists.txt # 项目构建配置
+- └── README.md # 本说明文件
 
 ---
 
@@ -82,3 +85,6 @@ MIT License © 2025
 ## 版本
 - 0.1 LCD调试完成
 - 0.2 流水灯
+- 0.3 蜂鸣器，试图非阻塞式延时但是失败
+
+---

@@ -1,6 +1,8 @@
 #ifndef __SYS_H
 #define __SYS_H	
 #include "stm32f10x.h"
+
+extern volatile uint32_t sys_ms;
 						    
 	 
 //位带操作,实现51类似的GPIO控制功能

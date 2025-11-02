@@ -1,0 +1,25 @@
+# Build artifacts
+/build/
+Debug/
+Release/
+*.o
+*.obj
+*.a
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+*.d
+
+# Logs / temp
+*.log
+*.tmp
+*.bak
+*~
+
+# IDE / tool-specific
+*.launch
+.settings/
+.metadata/
+*.swp
