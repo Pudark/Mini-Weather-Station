@@ -1,4 +1,0 @@
-D:/Data/Design/Project-core/build/CMakeFiles/Project-core.elf.dir
-D:/Data/Design/Project-core/build/CMakeFiles/flash.dir
-D:/Data/Design/Project-core/build/CMakeFiles/edit_cache.dir
-D:/Data/Design/Project-core/build/CMakeFiles/rebuild_cache.dir
