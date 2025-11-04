@@ -31,6 +31,11 @@ void BUZZER_Alert(uint16_t ms_on, uint16_t ms_off, uint8_t times)
 /**
  * @brief 预设蜂鸣器模式
  * @param mode 蜂鸣器模式
+ * @note BUZZER_MODE_OFF: 关闭
+ * @note BUZZER_MODE_SHORT: 短鸣
+ * @note BUZZER_MODE_DOUBLE: 双短鸣
+ * @note BUZZER_MODE_ALARM: 快速连续鸣（报警）
+ * @note BUZZER_MODE_ERROR: 慢速循环鸣（错误）
  */
 
  void Buzzer_SetMode(BuzzerMode_t mode)

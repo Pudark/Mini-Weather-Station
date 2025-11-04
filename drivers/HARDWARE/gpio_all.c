@@ -10,6 +10,9 @@
 #include "gpio_map.h"
 #include <stm32f10x_gpio.h>
 
+/**
+ * @brief GPIO 全局初始化
+ */
 void GPIO_All_Init(void)
 {
     GPIO_InitTypeDef GPIO_InitStructure;

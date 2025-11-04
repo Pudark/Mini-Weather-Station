@@ -22,13 +22,13 @@ set(SIZE arm-none-eabi-size)
 add_compile_options(
     -mcpu=cortex-m3
     -mthumb
-    -mthumb-interwork
     -ffunction-sections
     -fdata-sections
     -fno-common
     -fmessage-length=0
     -mfloat-abi=soft
 )
+
 
 if(NOT CMAKE_BUILD_TYPE)
     set(CMAKE_BUILD_TYPE Debug)
@@ -129,6 +129,9 @@ target_link_options(${PROJECT_NAME}.elf PRIVATE
     -T${LINKER_SCRIPT}
     -Wl,-Map=${CMAKE_SOURCE_DIR}/build/${PROJECT_NAME}.map
     -Wl,--gc-sections
+    -mcpu=cortex-m3
+    -mthumb
+    -mfloat-abi=soft
 )
 
 
