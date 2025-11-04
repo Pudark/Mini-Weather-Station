@@ -18,22 +18,21 @@
 
 //----------------OLED端口定义----------------- 
 /***************根据自己需求更改****************/
-//CLK->SCL
 #define LCD_SCL_GPIO_PORT				GPIOA
 #define LCD_SCL_GPIO_PIN				GPIO_Pin_0
-//SDA->MOSI				
+				
 #define LCD_SDA_GPIO_PORT				GPIOA
 #define LCD_SDA_GPIO_PIN				GPIO_Pin_1
-//RST->RESET				
+				
 #define LCD_RST_GPIO_PORT				GPIOA
 #define LCD_RST_GPIO_PIN				GPIO_Pin_2
-///DC->RS				
+				
 #define LCD_DC_GPIO_PORT				GPIOA
 #define LCD_DC_GPIO_PIN					GPIO_Pin_3
-//CS->CS				
+				
 #define LCD_CS_GPIO_PORT				GPIOA
 #define LCD_CS_GPIO_PIN					GPIO_Pin_4
-//BLK->LED
+
 #define LCD_BLK_GPIO_PORT				GPIOA
 #define LCD_BLK_GPIO_PIN				GPIO_Pin_5
 

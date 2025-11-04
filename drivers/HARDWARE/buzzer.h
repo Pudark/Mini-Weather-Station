@@ -6,16 +6,10 @@
  * @brief 蜂鸣器驱动
  */
 
+#include <stdint.h>
+
 #ifndef __BUZZER_H
 #define __BUZZER_H
-
-#include "stm32f10x.h"
-
-// === 蜂鸣器GPIO配置 ===
-#define BUZZER_GPIO_PORT    GPIOB
-#define BUZZER_GPIO_PIN     GPIO_Pin_0
-#define BUZZER_ON()         GPIO_ResetBits(BUZZER_GPIO_PORT, BUZZER_GPIO_PIN)
-#define BUZZER_OFF()        GPIO_SetBits(BUZZER_GPIO_PORT, BUZZER_GPIO_PIN)
 
 // === 蜂鸣器模式 ===
 typedef enum {
@@ -26,8 +20,8 @@ typedef enum {
     BUZZER_MODE_ERROR        // 慢速循环鸣（错误）
 } BuzzerMode_t;
 
-void Buzzer_Init(void);
-void Buzzer_SetMode(BuzzerMode_t mode);
-void Buzzer_Task(void);
+
+void BUZZER_Alert(uint16_t ms_on, uint16_t ms_off, uint8_t times);
+ void Buzzer_SetMode(BuzzerMode_t mode);
 
 #endif

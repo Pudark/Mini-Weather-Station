@@ -4,6 +4,10 @@
         "-DCMAKE_TOOLCHAIN_FILE=${workspaceFolder}/arm-gcc.cmake"
     ],
     "files.associations": {
-        "stm32f10x.h": "c"
+        "stm32f10x.h": "c",
+        "buzzer.h": "c",
+        "stdint.h": "c",
+        "stm32f10x_gpio.h": "c",
+        "adc_sensor.h": "c"
     }
 }

@@ -17,9 +17,9 @@
 // === 74HC595 接口定义 ===
 // SPI1_SCK  -> PA5
 // SPI1_MOSI -> PA7
-// LATCH     -> PB0
+// LATCH     -> PB5
 #define LEDF_GPIO_PORT     GPIOB
-#define LEDF_PIN_LATCH     GPIO_Pin_0
+#define LEDF_PIN_LATCH     GPIO_Pin_5
 #define LEDF_GPIO_CLK      RCC_APB2Periph_GPIOB
 
 // === 函数声明 ===

@@ -1,9 +1,9 @@
 /**
  * @file main.c
  * @author Pudark
- * @version 0.2
- * @date 2025.10.30
- * @brief 调试流水灯
+ * @version 0.4
+ * @date 2025.11.4
+ * @brief 调试全局封装和剩余传感器
  * @note MCU:STM32F103C8T6
  * @note 编译器:ARM-GCC
  * @note IDE:VSCode + CMake
@@ -16,9 +16,11 @@
 #include "usart.h"
 #include "led.h"
 #include "ledf.h"
-#include "mini_printf.h"
 #include "delay.h"
 #include "buzzer.h"
+#include "gpio_map.h"
+#include "adc.h"
+#include "adc_sensor.h"
 
 
 int main(void)
@@ -28,31 +30,31 @@ int main(void)
 
     delay_init(72);
     LCD_Init();
-
+    LEDF_Init();
     LED_Init();
+    ADCx_Init();
+
+    GPIO_All_Init();
+
     USART1_Config();
-    Buzzer_Init();
 
     delay_ms(100);
 
     LCD_Fill(0,0,160,128,GREEN);
-    LCD_ShowString(0,0,"Hello world",WHITE,BLUE,16,0);
+    LCD_ShowString(0,0,"light:",WHITE,BLUE,16,0);
 
-    Buzzer_SetMode(BUZZER_MODE_SHORT); // 设置一次
-
-    uint32_t last_led = sys_ms;
+    SensorData_t sensor;
 
     while(1)
     {
-        uint32_t now = sys_ms;
+
+        Sensor_Read(&sensor);
 
         LED_Toggle();
 
-        // 蜂鸣器状态机
-        Buzzer_Task();
+        LCD_ShowIntNum(100,16,sensor.light_analog,4,WHITE,GREEN,16);
 
-        // 延时防止CPU空转
-        delay_ms(500);
+        LEDF_RunningLight(60,1);
     }
 
 }
