@@ -8,6 +8,7 @@
         "buzzer.h": "c",
         "stdint.h": "c",
         "stm32f10x_gpio.h": "c",
-        "adc_sensor.h": "c"
+        "adc_sensor.h": "c",
+        "stdbool.h": "c"
     }
 }

@@ -1,8 +1,8 @@
 /**
  * @file sensor.c
  * @author Pudark
- * @version 0.5
- * @date 2025-11-4
+ * @version 0.6
+ * @date 2025-11-5
  * @brief 传感器接口
  */
 
@@ -10,7 +10,9 @@
 #include "gpio_map.h"
 #include "adc.h"
 #include "tim_capture.h"
+#include "i2c_hw.h"
 #include <stm32f10x_adc.h>
+#include <stdint.h>
 #include "delay.h"
 
 
@@ -21,6 +23,8 @@ void Sensor_Init(void)
 {
     ADCx_Init();
     TIM_Capture_Init();
+    I2C_HW_Init();
+
 }
 
 
@@ -322,4 +326,58 @@ float DS18B20_ReadTempValue(void)
 
     return value;
 }
+
+// ======================= HW-611 =======================
+/**
+ * @brief 初始化HW611传感器
+ */
+/*
+void HW611_Init(void)
+{
+    I2C_HW_Init();
+    // 如果HW611需要配置寄存器，可以在这里写：
+    // I2C_HW_Write(HW611_ADDR, 0x00, 0x01);
+}
+*/
+/**
+ * @brief 读取HW611传感器数据
+ * @return 传感器数据（16位）
+ */
+/*
+uint16_t HW611_ReadData(void)
+{
+    uint8_t high = I2C_HW_Read(BMP280_ADDR, 0x01);
+    uint8_t low  = I2C_HW_Read(BMP280_ADDR, 0x02);
+    return (high << 8) | low;
+}
+*/
+/**
+ * @brief 检测BMP280传感器是否存在
+ * @return 1=存在 0=不存在
+ */
+/*
+uint8_t BMP280_Check(void)
+{
+    uint8_t id = I2C_HW_Read(BMP280_ADDR, BMP280_REG_ID);
+    return (id == 0x58); // 0x58 表示 BMP280
+}
+*/
+/**
+ * @brief 复位BMP280传感器
+ */
+/*
+void BMP280_Reset(void)
+{
+    I2C_HW_Write(BMP280_ADDR, BMP280_REG_RESET, BMP280_RESET_VALUE);
+}
+*/
+/**
+ * @brief 读HW611地址
+ */
+/*
+uint8_t BMP280_ReadID(void)
+{
+    return I2C_HW_Read(0x36, 0xD0);  // 若SDO接高电平，用0x77<<1
+}
+*/
 

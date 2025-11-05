@@ -50,8 +50,7 @@
 1. 打开 VSCode → “Open Folder” 选择 `Project-core`  
 2. 运行 CMake: Configure → 生成 Ninja 构建文件  
 3. 点击 Build → 生成 `Project-core.elf / .bin / .hex`  
-4. 使用 ST-Link 烧录程序  
-5. 打开串口调试工具，查看 LCD 识别 ID 输出  
+4. 使用 ST-Link 烧录程序    
 
 ---
 
@@ -89,5 +88,6 @@ MIT License © 2025
 - 0.3 蜂鸣器，试图非阻塞式延时但是失败
 - 0.4 ADC，顺便画了个原理图
 - 0.5 传感器更新，DHT11和DS18B20已调试
+- 0.6 HW-611传感器调试，修复了一些冲突BUG。
 
 ---

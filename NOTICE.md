@@ -22,6 +22,7 @@
 - **使用范围**: 教学和学习目的
 - **致谢**: 感谢辰哥单片机设计提供的优质嵌入式教学资料，为本项目提供了重要的学习参考和基础实现思路。
 [https://docs.qq.com/doc/DT21ESG5nVWJYY1dm]
+[https://docs.qq.com/doc/DT2N2ZHRRcWRpSGtu]
 
 ## 重要说明
 本项目为学术课程作业，仅用于学习目的。

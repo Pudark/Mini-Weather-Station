@@ -16,6 +16,14 @@
 
 **********************BEGIN***********************/
 
+/**
+ * @file lcd.c
+ * @version 0.6
+ * @date 2025-11-5
+ * @brief LCD显示
+ * @bug LCD_Showxx中封装的数长度太短了以至于我连续溢出，显示了错误的数值，现在已经修复
+ */
+
 
 void LCD_GPIO_Init(void)
 {
@@ -719,7 +727,7 @@ u32 mypow(u8 m,u8 n)
                 sizey 字号
       返回值：  无
 ******************************************************************************/
-void LCD_ShowIntNum(u16 x,u16 y,u16 num,u8 len,u16 fc,u16 bc,u8 sizey)
+void LCD_ShowIntNum(u16 x,u16 y,u32 num,u8 len,u16 fc,u16 bc,u8 sizey)
 {         	
 	u8 t,temp;
 	u8 enshow=0;
@@ -754,7 +762,7 @@ void LCD_ShowIntNum(u16 x,u16 y,u16 num,u8 len,u16 fc,u16 bc,u8 sizey)
 void LCD_ShowFloatNum1(u16 x,u16 y,float num,u8 len,u16 fc,u16 bc,u8 sizey)
 {         	
 	u8 t,temp,sizex;
-	u16 num1;
+	u32 num1;
 	sizex=sizey/2;
 	num1=num*100;
 	for(t=0;t<len;t++)
