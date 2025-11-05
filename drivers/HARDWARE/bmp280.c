@@ -330,6 +330,21 @@ static void bmp280GetPressure(void)
 
 // Returns temperature in DegC, resolution is 0.01 DegC. Output value of "5123" equals 51.23 DegC
 // t_fine carries fine temperature as global value
+static s32 bmp280CompensateT(s32 adcT)
+{
+    s32 var1,var2,T;
+
+    var1=((((adcT>>3)-((s32)bmp280Cal.dig_T1<<1)))*((s32)bmp280Cal.dig_T2))>>11;
+    var2=(((((adcT>>4)-((s32)bmp280Cal.dig_T1))*((adcT>>4)-((s32)bmp280Cal.dig_T1)))>>12)*((s32)bmp280Cal.dig_T3))>>14;
+    bmp280Cal.t_fine=var1+var2;
+	
+    T=(bmp280Cal.t_fine*5+128)>>8;
+
+    return T;
+}
+
+// 以 Q24.8 格式（24 个整数位和 8 个小数位）将压力以 Pa 为单位返回为无符号 32 位整数。
+// “24674867”的输出值表示 24674867/256 = 96386.2 Pa = 963.862 hPa
 static uint32_t bmp280CompensateP(s32 adcP)
 {
     int64_t var1,var2,p;
@@ -348,8 +363,6 @@ static uint32_t bmp280CompensateP(s32 adcP)
     p=((p+var1+var2)>>8)+(((int64_t)bmp280Cal.dig_P7)<<4);
     return(uint32_t)p;
 }
-
-
 
 #define FILTER_NUM	5
 #define FILTER_A	0.1f
@@ -391,7 +404,7 @@ static void presssureFilter(float* in,float* out)
 	}
 }
 
-void BMP280GetData(float* pressure,float* temperature,float* asl,int32_t* prr)
+void BMP280GetData(float* pressure,float* temperature,float* asl)
 {
     static float t;
     static float p;
@@ -403,10 +416,9 @@ void BMP280GetData(float* pressure,float* temperature,float* asl,int32_t* prr)
 
 	presssureFilter(&p,pressure);
 	*temperature=(float)t;                                                   /*单位度*/
-	*pressure=(float)p ;	                                                   /*单位hPa*/
-
+	*pressure=(float)p ;	                                                   /*单位hPa*/	
+	
 	*asl=bmp280PressureToAltitude(pressure);	                               /*转换成海拔*/	
-	*prr=bmp280RawPressure;
 }
 
 #define CONST_PF 0.1902630958	                                               //(1/5.25588f) Pressure factor
@@ -426,5 +438,3 @@ static float bmp280PressureToAltitude(float* pressure/*, float* groundPressure, 
         return 0;
     }
 }
-
-

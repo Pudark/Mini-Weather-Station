@@ -1,8 +1,8 @@
 /**
- * @file gpio_all.c
+ * @file gpio_map.c
  * @author Pudark
- * @version 0.4
- * @date 2025-11-3
+ * @version 0.6
+ * @date 2025-11-5
  * @brief GPIO 全局初始化
  */
 

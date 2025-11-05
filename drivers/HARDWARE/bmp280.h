@@ -79,7 +79,7 @@ void iicDevWrite(u8 devaddr,u8 addr,u8 len,u8 *wbuf);                          /
 
 
 bool BMP280Init(void);
-void BMP280GetData(float* pressure, float* temperature, float* asl,int32_t* prr);
+void BMP280GetData(float* pressure, float* temperature, float* asl);
 
 
 

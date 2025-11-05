@@ -1,9 +1,9 @@
 /**
  * @file main.c
  * @author Pudark
- * @version 0.6
+ * @version 0.7
  * @date 2025.11.5
- * @brief 调试全局封装和剩余传感器
+ * @brief 调试按键和看门狗
  * @note MCU:STM32F103C8T6
  * @note 编译器:ARM-GCC
  * @note IDE:VSCode + CMake
@@ -23,12 +23,13 @@
 #include "sensor.h"
 #include "i2c_hw.h"
 #include "bmp280.h"
+#include "keys.h"
+#include "iwdg.h"
 
 u8 buff[30];//参数显示缓存数组
 u16 Pre;		//气压检测值
 
-static float bmp280_press,bmp280_tmp,bmp280_asl;				//气压
-static int32_t pp;
+static float bmp280_press,bmp280_tmp,bmp280_asl;			
 
 
 int main(void)
@@ -47,23 +48,26 @@ int main(void)
     DHT11_Init();
     DS18B20_Init();
 	BMP280Init();
+    Keys_Init();
 
     USART1_Config();
 
     delay_ms(100);
 
-    LCD_Fill(0,0,160,128,GREEN);
-    LCD_ShowString(0,0,"light:",WHITE,BLUE,16,0);
 
     SensorData_t sensor;
     DHT11_Data_t dht;
     float ds18_temp;
     float pressure;   // hPa
     float dummy1, dummy2;
+    LCD_Fill(0,0,160,128,GREEN);
 
+    IWDG_Init_2s();
 
     while(1)
     {
+
+
 
         Sensor_Read(&sensor);
 
@@ -90,10 +94,12 @@ int main(void)
         LCD_ShowIntNum(40,48,dht.temp_int,2,BLACK,GREEN,12);
         LCD_ShowFloatNum1(40,64,ds18_temp,4,BLACK,GREEN,12);
 
-   		BMP280GetData(&bmp280_press,&bmp280_tmp,&bmp280_asl,&pp);
+   		BMP280GetData(&bmp280_press,&bmp280_tmp,&bmp280_asl);
 
-        LCD_ShowFloatNum1(0,80,bmp280_press,6,BLACK,GREEN,12); 
-
+        LCD_ShowFloatNum1(0,80,bmp280_press,6,BLACK,GREEN,12);
+        
+ 
+        IWDG_Feed();
 
     }
 
