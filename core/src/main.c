@@ -1,9 +1,9 @@
 /**
  * @file main.c
  * @author Pudark
- * @version 0.7
- * @date 2025.11.5
- * @brief 调试按键和看门狗
+ * @version 0.8
+ * @date 2025.11.6
+ * @brief 总调试
  * @note MCU:STM32F103C8T6
  * @note 编译器:ARM-GCC
  * @note IDE:VSCode + CMake
@@ -19,12 +19,12 @@
 #include "delay.h"
 #include "buzzer.h"
 #include "gpio_map.h"
-#include "adc.h"
 #include "sensor.h"
 #include "i2c_hw.h"
 #include "bmp280.h"
 #include "keys.h"
 #include "iwdg.h"
+#include "pic.h"
 
 u8 buff[30];//参数显示缓存数组
 u16 Pre;		//气压检测值
@@ -41,7 +41,6 @@ int main(void)
     LCD_Init();
     LEDF_Init();
     LED_Init();
-    ADCx_Init();
 
     GPIO_All_Init();
     Sensor_Init();
@@ -61,6 +60,30 @@ int main(void)
     float pressure;   // hPa
     float dummy1, dummy2;
     LCD_Fill(0,0,160,128,GREEN);
+    LCD_ShowChinese16x16(0+50,0,"气",BLACK,GREEN,16,0);
+    LCD_ShowChinese16x16(17+50,0,"象",BLACK,GREEN,16,0);
+    LCD_ShowChinese16x16(34+50,0,"数",BLACK,GREEN,16,0);
+    LCD_ShowChinese16x16(51+50,0,"据",BLACK,GREEN,16,0);
+    LCD_ShowChinese16x16(0,18,"温",BLACK,GREEN,16,0);
+    LCD_ShowChinese16x16(17,18,"度",BLACK,GREEN,16,0);
+    LCD_ShowString(34,18,"1:",BLACK,GREEN,16,0);
+    LCD_ShowChinese12x12(100,20,"℃",BLACK,GREEN,12,0);
+    LCD_ShowChinese16x16(0,36,"湿",BLACK,GREEN,16,0);
+    LCD_ShowChinese16x16(17,36,"度",BLACK,GREEN,16,0);
+    LCD_ShowString(34,36,":",BLACK,GREEN,16,0);
+    LCD_ShowChinese12x12(100,38,"%",BLACK,GREEN,12,0);
+    LCD_ShowChinese16x16(0,54,"气",BLACK,GREEN,16,0);
+    LCD_ShowChinese16x16(17,54,"压",BLACK,GREEN,16,0);
+    LCD_ShowString(34,54,":",BLACK,GREEN,16,0);
+    LCD_ShowString(100,56,"hPa",BLACK,GREEN,12,0);
+    LCD_ShowChinese16x16(0,72,"光",BLACK,GREEN,16,0);
+    LCD_ShowChinese16x16(17,72,"强",BLACK,GREEN,16,0);
+    LCD_ShowString(34,72,":",BLACK,GREEN,16,0);
+    LCD_ShowChinese16x16(0,90,"温",BLACK,GREEN,16,0);
+    LCD_ShowChinese16x16(17,90,"度",BLACK,GREEN,16,0);
+    LCD_ShowString(34,90,"2:",BLACK,GREEN,16,0);
+    LCD_ShowChinese12x12(100,92,"℃",BLACK,GREEN,12,0);
+
 
     IWDG_Init_2s();
 
@@ -74,29 +97,25 @@ int main(void)
         LED_Toggle();
         DS18B20_StartConvert();
 
-        LCD_ShowIntNum(100,16,sensor.light_analog,4,WHITE,GREEN,12);
-//        LCD_ShowFloatNum1(100,32,sensor.md1101_freq,6,WHITE,GREEN,12);
+        LCD_ShowIntNum(50,74,sensor.light_analog,4,RED,GREEN,12);
+        LCD_ShowFloatNum1(50,38,sensor.md1101_freq,4,RED,GREEN,12);
 
         LEDF_RunningLight(60,1);
-        LCD_ShowIntNum(100,16,sensor.light_analog,4,WHITE,GREEN,12);
+        LCD_ShowIntNum(50,74,sensor.light_analog,4,RED,GREEN,12);
 
         LEDF_RunningLight(60,1);
-        LCD_ShowIntNum(100,16,sensor.light_analog,4,WHITE,GREEN,12);
+        LCD_ShowIntNum(50,74,sensor.light_analog,4,RED,GREEN,12);
 
         dht = DHT11_Read();
 
         ds18_temp = DS18B20_ReadTempValue();
 
-        if (dht.valid == 0){
-            LCD_ShowString(0,48,"DHT fail",WHITE,GREEN,16,0);
-        }
-
-        LCD_ShowIntNum(40,48,dht.temp_int,2,BLACK,GREEN,12);
-        LCD_ShowFloatNum1(40,64,ds18_temp,4,BLACK,GREEN,12);
+        LCD_ShowIntNum(50,20,dht.temp_int,2,RED,GREEN,12);
+        LCD_ShowFloatNum1(50,92,ds18_temp,4,RED,GREEN,12);
 
    		BMP280GetData(&bmp280_press,&bmp280_tmp,&bmp280_asl);
 
-        LCD_ShowFloatNum1(0,80,bmp280_press,6,BLACK,GREEN,12);
+        LCD_ShowFloatNum1(50,56,bmp280_press,6,BLACK,GREEN,12);
         
  
         IWDG_Feed();

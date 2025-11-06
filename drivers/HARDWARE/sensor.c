@@ -43,7 +43,7 @@ void Sensor_Read(SensorData_t *data)
     data->light_digital = GPIO_ReadInputDataBit(GPIOB, GPIO_Pin_1);
 
     // TLC555: PA9 -> ADC_Channel0（假设）
-    data->md1101_freq = TIM_GetFrequency();
+    data->md1101_freq =260.5 - TIM_GetFrequency() / 172;
 }
 
 // ======================= DHT11 =======================
