@@ -19,7 +19,7 @@
  * @note md1101_freq：TLC555 输出（频率）
  */
 typedef struct {
-    uint16_t light_analog;  // 光敏电阻 AO 模拟值
+    float light_analog;  // 光敏电阻 AO 模拟值
     uint8_t  light_digital; // 光敏电阻 DO 数字输入
     uint16_t md1101_freq;   // TLC555 输出（频率）
 } SensorData_t;

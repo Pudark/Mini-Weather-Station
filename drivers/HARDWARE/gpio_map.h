@@ -58,7 +58,7 @@
 
 // 按键1（PB12） → 上一页
 #define KEY1_GPIO_PORT        GPIOB
-#define KEY1_GPIO_PIN         GPIO_Pin_12
+#define KEY1_GPIO_PIN         GPIO_Pin_14
 #define KEY1_READ()           GPIO_ReadInputDataBit(KEY1_GPIO_PORT, KEY1_GPIO_PIN)
 
 // 按键2（PB13） → 下一页

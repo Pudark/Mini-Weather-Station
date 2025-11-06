@@ -59,10 +59,10 @@ void EXTI15_10_IRQHandler(void)
         Key_Handle(KEY1_GPIO_PORT, KEY1_GPIO_PIN);
         EXTI_ClearITPendingBit(EXTI_Line12);
     }
-    if(EXTI_GetITStatus(EXTI_Line13) != RESET) // PB13 按键2
+    if(EXTI_GetITStatus(EXTI_Line14) != RESET) // PB14 按键2
     {
         Key_Handle(KEY2_GPIO_PORT, KEY2_GPIO_PIN);
-        EXTI_ClearITPendingBit(EXTI_Line13);
+        EXTI_ClearITPendingBit(EXTI_Line14);
     }
 }
 
@@ -87,10 +87,10 @@ void Keys_Init(void)
     RCC_APB2PeriphClockCmd(RCC_APB2Periph_AFIO, ENABLE);
     GPIO_EXTILineConfig(GPIO_PortSourceGPIOB, GPIO_PinSource11);
     GPIO_EXTILineConfig(GPIO_PortSourceGPIOB, GPIO_PinSource12);
-    GPIO_EXTILineConfig(GPIO_PortSourceGPIOB, GPIO_PinSource13);
+    GPIO_EXTILineConfig(GPIO_PortSourceGPIOB, GPIO_PinSource14);
 
     /* --- EXTI 配置 --- */
-    EXTI_InitStructure.EXTI_Line = EXTI_Line11 | EXTI_Line12 | EXTI_Line13;
+    EXTI_InitStructure.EXTI_Line = EXTI_Line11 | EXTI_Line12 | EXTI_Line14;
     EXTI_InitStructure.EXTI_Mode = EXTI_Mode_Interrupt;
     EXTI_InitStructure.EXTI_Trigger = EXTI_Trigger_Falling; // 按下低电平
     EXTI_InitStructure.EXTI_LineCmd = ENABLE;

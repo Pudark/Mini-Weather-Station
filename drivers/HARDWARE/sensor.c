@@ -37,7 +37,7 @@ void Sensor_Init(void)
 void Sensor_Read(SensorData_t *data)
 {
     // 光敏电阻 AO: PB0 -> ADC_Channel8
-    data->light_analog = ADC_Read(ADC_Channel_8);
+    data->light_analog = 409500 / ADC_Read(ADC_Channel_8) ;
 
     // 光敏电阻 DO: PB1
     data->light_digital = GPIO_ReadInputDataBit(GPIOB, GPIO_Pin_1);
